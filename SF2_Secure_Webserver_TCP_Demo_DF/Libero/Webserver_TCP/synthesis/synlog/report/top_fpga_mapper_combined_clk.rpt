@@ -1,0 +1,31 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+3 non-gated/non-generated clock tree(s) driving 159 clock pin(s) of sequential element(s)
+4 gated/generated clock tree(s) driving 286 clock pin(s) of sequential element(s)
+0 instances converted, 286 sequential instances remain driven by gated/generated clocks
+
+============================================================================ Non-Gated/Non-Generated Clocks =============================================================================
+Clock Tree ID     Driving Element                                              Drive Element Type                     Fanout     Sample Instance                                         
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0005       SERDES_IF_0.refclk1_inbuf_diff                               INBUF_DIFF                             1          SERDES_IF_0.SERDESIF_INST                               
+@K:CKID0006       Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST     clock definition on MSS_120            112        Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST
+@K:CKID0007       Webserver_TCP_sb_0.FABOSC_0.I_RCOSC_25_50MHZ                 clock definition on RCOSC_25_50MHZ     46         Webserver_TCP_sb_0.CORERESETP_0.ddr_settled             
+=========================================================================================================================================================================================
+============================================================================================= Gated/Generated Clocks =============================================================================================
+Clock Tree ID     Driving Element                       Drive Element Type     Fanout     Sample Instance                                              Explanation                                                
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       Webserver_TCP_sb_0.CCC_0.CCC_INST     CCC                    283        Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_120
+@K:CKID0002       FCCC_0.CCC_INST                       CCC                    1          Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_120
+@K:CKID0003       FCCC_0.CCC_INST                       CCC                    1          Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_120
+@K:CKID0004       FCCC_1.CCC_INST                       CCC                    1          Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_120
+==================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

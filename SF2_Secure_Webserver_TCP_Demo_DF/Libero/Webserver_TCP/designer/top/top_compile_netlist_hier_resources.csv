@@ -1,0 +1,21 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,Differential I/O Pairs,LSRAM 18K,PLLs and CCCs,Chip Globals,SERDESIF Blocks,SERDESIF Lanes,EPCS,MSS,CAN,RCOSC_50MHZ
+FCCC_0/Primitives,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0
+FCCC_1/Primitives,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+Primitives/Primitives,2,0,0,0,11,0,0,0,0,0,0,0,0,0,0
+SERDES_IF_0/Primitives,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0
+Webserver_TCP_sb_0/CCC_0/Primitives,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/Primitives,14,23,0,0,0,0,0,0,0,0,0,0,0,0,0
+Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_SramCtrlIf/Primitives,11,37,0,0,0,0,0,0,0,0,0,0,0,0,0
+Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_SramCtrlIf/genblk1.byte_0/Primitives,14,1,576,576,0,0,16,0,0,0,0,0,0,0,0
+Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_SramCtrlIf/genblk1.byte_1/Primitives,12,0,576,576,0,0,16,0,0,0,0,0,0,0,0
+Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_SramCtrlIf/genblk1.byte_2/Primitives,12,0,576,576,0,0,16,0,0,0,0,0,0,0,0
+Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_SramCtrlIf/genblk1.byte_3/Primitives,12,0,576,576,0,0,16,0,0,0,0,0,0,0,0
+Webserver_TCP_sb_0/CORECONFIGP_0/Primitives,77,110,0,0,0,0,0,0,0,0,0,0,0,0,0
+Webserver_TCP_sb_0/CORERESETP_0/Primitives,60,90,0,0,0,0,0,0,5,0,0,0,0,0,0
+Webserver_TCP_sb_0/CoreAHBLite_0/matrix4x16/masterstage_0/Primitives,82,42,0,0,0,0,0,0,0,0,0,0,0,0,0
+Webserver_TCP_sb_0/CoreAHBLite_0/matrix4x16/masterstage_0/default_slave_sm/Primitives,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Webserver_TCP_sb_0/CoreAHBLite_0/matrix4x16/slavestage_0/Primitives,35,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Webserver_TCP_sb_0/CoreAHBLite_0/matrix4x16/slavestage_0/slave_arbiter/Primitives,26,5,0,0,0,0,0,0,0,0,0,0,0,0,0
+Webserver_TCP_sb_0/FABOSC_0/Primitives,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1
+Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/Primitives,0,0,0,0,52,3,0,0,2,0,0,0,1,0,0

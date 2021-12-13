@@ -1,0 +1,575 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2020.09M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v2021.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: HYD-LT-I53165
+
+Implementation : synthesis
+
+#### START OF AREA REPORT #####[
+
+Part:			M2S150TSFC1152-1 (Microchip)
+
+-------------------------------------------------------------------
+########   Utilization report for  Top level view:   top   ########
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      310                100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block top:	310 (35.76 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           332                100 %                
+ARI1          27                 100 %                
+BLACK BOX     9                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block top:	368 (42.45 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     64                 100 %                
+====================================================
+Total MEMORY ELEMENTS in the block top:	64 (7.38 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     12                 100 %                
+===================================================
+Total GLOBAL BUFFERS in the block top:	12 (1.38 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       67                 100 %                
+=================================================
+Total IO PADS in the block top:	67 (7.73 % Utilization)
+
+----------------------------------------------------------------------
+########   Utilization report for  cell:   Webserver_TCP_sb   ########
+Instance path:   top.Webserver_TCP_sb                                 
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      310                100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block top.Webserver_TCP_sb:	310 (35.76 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           332                100 %                
+ARI1          27                 100 %                
+BLACK BOX     5                  55.6 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block top.Webserver_TCP_sb:	364 (41.98 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     64                 100 %                
+====================================================
+Total MEMORY ELEMENTS in the block top.Webserver_TCP_sb:	64 (7.38 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     9                  75 %                 
+===================================================
+Total GLOBAL BUFFERS in the block top.Webserver_TCP_sb:	9 (1.04 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       55                 82.1 %               
+=================================================
+Total IO PADS in the block top.Webserver_TCP_sb:	55 (6.34 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   CoreAHBLite_Z4   ########
+Instance path:   Webserver_TCP_sb.CoreAHBLite_Z4                    
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      49                 15.8 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Webserver_TCP_sb.CoreAHBLite_Z4:	49 (5.65 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      146                44 %                 
+=================================================
+Total COMBINATIONAL LOGIC in the block Webserver_TCP_sb.CoreAHBLite_Z4:	146 (16.84 % Utilization)
+
+---------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_MATRIX4X16_2_1_0_1_0_0_0_0s   ########
+Instance path:   CoreAHBLite_Z4.COREAHBLITE_MATRIX4X16_2_1_0_1_0_0_0_0s                      
+=============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      49                 15.8 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CoreAHBLite_Z4.COREAHBLITE_MATRIX4X16_2_1_0_1_0_0_0_0s:	49 (5.65 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      146                44 %                 
+=================================================
+Total COMBINATIONAL LOGIC in the block CoreAHBLite_Z4.COREAHBLITE_MATRIX4X16_2_1_0_1_0_0_0_0s:	146 (16.84 % Utilization)
+
+-------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_MASTERSTAGE_2_1_0_1_0s_0_1_0   ########   
+Instance path:   COREAHBLITE_MATRIX4X16_2_1_0_1_0_0_0_0s.COREAHBLITE_MASTERSTAGE_2_1_0_1_0s_0_1_0
+=================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      43                 13.9 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_2_1_0_1_0_0_0_0s.COREAHBLITE_MASTERSTAGE_2_1_0_1_0s_0_1_0:	43 (4.96 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      85                 25.6 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_2_1_0_1_0_0_0_0s.COREAHBLITE_MASTERSTAGE_2_1_0_1_0s_0_1_0:	85 (9.80 % Utilization)
+
+---------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_DEFAULTSLAVESM_0s_0_1_0   ########    
+Instance path:   COREAHBLITE_MASTERSTAGE_2_1_0_1_0s_0_1_0.COREAHBLITE_DEFAULTSLAVESM_0s_0_1_0
+=============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.3230 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MASTERSTAGE_2_1_0_1_0s_0_1_0.COREAHBLITE_DEFAULTSLAVESM_0s_0_1_0:	1 (0.12 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      3                  0.9040 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_MASTERSTAGE_2_1_0_1_0s_0_1_0.COREAHBLITE_DEFAULTSLAVESM_0s_0_1_0:	3 (0.35 % Utilization)
+
+----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_SLAVESTAGE_0s_0_0_1   ########   
+Instance path:   COREAHBLITE_MATRIX4X16_2_1_0_1_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_1
+========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      6                  1.94 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_MATRIX4X16_2_1_0_1_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_1:	6 (0.69 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      61                 18.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_MATRIX4X16_2_1_0_1_0_0_0_0s.COREAHBLITE_SLAVESTAGE_0s_0_0_1:	61 (7.04 % Utilization)
+
+-----------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAHBLITE_SLAVEARBITER_Z3_0   ########
+Instance path:   COREAHBLITE_SLAVESTAGE_0s_0_0_1.COREAHBLITE_SLAVEARBITER_Z3_0     
+===================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      5                  1.61 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAHBLITE_SLAVESTAGE_0s_0_0_1.COREAHBLITE_SLAVEARBITER_Z3_0:	5 (0.58 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      26                 7.83 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block COREAHBLITE_SLAVESTAGE_0s_0_0_1.COREAHBLITE_SLAVEARBITER_Z3_0:	26 (3.00 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   CoreConfigP_Z5   ########
+Instance path:   Webserver_TCP_sb.CoreConfigP_Z5                    
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      110                35.5 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Webserver_TCP_sb.CoreConfigP_Z5:	110 (12.69 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      77                 23.2 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Webserver_TCP_sb.CoreConfigP_Z5:	77 (8.88 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   CoreResetP_Z6   ########
+Instance path:   Webserver_TCP_sb.CoreResetP_Z6                    
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      90                 29 %                 
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Webserver_TCP_sb.CoreResetP_Z6:	90 (10.38 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      33                 9.94 %               
+ARI1     27                 100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block Webserver_TCP_sb.CoreResetP_Z6:	60 (6.92 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     5                  41.7 %               
+===================================================
+Total GLOBAL BUFFERS in the block Webserver_TCP_sb.CoreResetP_Z6:	5 (0.58 % Utilization)
+
+---------------------------------------------------------------------------------
+########   Utilization report for  cell:   Webserver_TCP_sb_CCC_0_FCCC   ########
+Instance path:   Webserver_TCP_sb.Webserver_TCP_sb_CCC_0_FCCC                    
+=================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block Webserver_TCP_sb.Webserver_TCP_sb_CCC_0_FCCC:	1 (0.12 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  8.33 %               
+===================================================
+Total GLOBAL BUFFERS in the block Webserver_TCP_sb.Webserver_TCP_sb_CCC_0_FCCC:	1 (0.12 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Webserver_TCP_sb_COREAHBLSRAM_0_0_COREAHBLSRAM_19s_32s_32s_32768s_512s_0s   ########
+Instance path:   Webserver_TCP_sb.Webserver_TCP_sb_COREAHBLSRAM_0_0_COREAHBLSRAM_19s_32s_32s_32768s_512s_0s                    
+===============================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      61                 19.7 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Webserver_TCP_sb.Webserver_TCP_sb_COREAHBLSRAM_0_0_COREAHBLSRAM_19s_32s_32s_32768s_512s_0s:	61 (7.04 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      75                 22.6 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Webserver_TCP_sb.Webserver_TCP_sb_COREAHBLSRAM_0_0_COREAHBLSRAM_19s_32s_32s_32768s_512s_0s:	75 (8.65 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     64                 100 %                
+====================================================
+Total MEMORY ELEMENTS in the block Webserver_TCP_sb.Webserver_TCP_sb_COREAHBLSRAM_0_0_COREAHBLSRAM_19s_32s_32s_32768s_512s_0s:	64 (7.38 % Utilization)
+
+-----------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   AHBLSramIf   ########                                     
+Instance path:   Webserver_TCP_sb_COREAHBLSRAM_0_0_COREAHBLSRAM_19s_32s_32s_32768s_512s_0s.AHBLSramIf
+=====================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      23                 7.42 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Webserver_TCP_sb_COREAHBLSRAM_0_0_COREAHBLSRAM_19s_32s_32s_32768s_512s_0s.AHBLSramIf:	23 (2.65 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      14                 4.22 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Webserver_TCP_sb_COREAHBLSRAM_0_0_COREAHBLSRAM_19s_32s_32s_32768s_512s_0s.AHBLSramIf:	14 (1.61 % Utilization)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Webserver_TCP_sb_COREAHBLSRAM_0_0_SramCtrlIf_0s_32768s_512s_32s_0_1_2   ########                                     
+Instance path:   Webserver_TCP_sb_COREAHBLSRAM_0_0_COREAHBLSRAM_19s_32s_32s_32768s_512s_0s.Webserver_TCP_sb_COREAHBLSRAM_0_0_SramCtrlIf_0s_32768s_512s_32s_0_1_2
+================================================================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      38                 12.3 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Webserver_TCP_sb_COREAHBLSRAM_0_0_COREAHBLSRAM_19s_32s_32s_32768s_512s_0s.Webserver_TCP_sb_COREAHBLSRAM_0_0_SramCtrlIf_0s_32768s_512s_32s_0_1_2:	38 (4.38 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      61                 18.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Webserver_TCP_sb_COREAHBLSRAM_0_0_COREAHBLSRAM_19s_32s_32s_32768s_512s_0s.Webserver_TCP_sb_COREAHBLSRAM_0_0_SramCtrlIf_0s_32768s_512s_32s_0_1_2:	61 (7.04 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     64                 100 %                
+====================================================
+Total MEMORY ELEMENTS in the block Webserver_TCP_sb_COREAHBLSRAM_0_0_COREAHBLSRAM_19s_32s_32s_32768s_512s_0s.Webserver_TCP_sb_COREAHBLSRAM_0_0_SramCtrlIf_0s_32768s_512s_32s_0_1_2:	64 (7.38 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Webserver_TCP_sb_COREAHBLSRAM_0_0_lsram_2048to139264x8_32768s_8s   ########                                 
+Instance path:   Webserver_TCP_sb_COREAHBLSRAM_0_0_SramCtrlIf_0s_32768s_512s_32s_0_1_2.Webserver_TCP_sb_COREAHBLSRAM_0_0_lsram_2048to139264x8_32768s_8s
+=======================================================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.3230 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Webserver_TCP_sb_COREAHBLSRAM_0_0_SramCtrlIf_0s_32768s_512s_32s_0_1_2.Webserver_TCP_sb_COREAHBLSRAM_0_0_lsram_2048to139264x8_32768s_8s:	1 (0.12 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      14                 4.22 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Webserver_TCP_sb_COREAHBLSRAM_0_0_SramCtrlIf_0s_32768s_512s_32s_0_1_2.Webserver_TCP_sb_COREAHBLSRAM_0_0_lsram_2048to139264x8_32768s_8s:	14 (1.61 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     16                 25 %                 
+====================================================
+Total MEMORY ELEMENTS in the block Webserver_TCP_sb_COREAHBLSRAM_0_0_SramCtrlIf_0s_32768s_512s_32s_0_1_2.Webserver_TCP_sb_COREAHBLSRAM_0_0_lsram_2048to139264x8_32768s_8s:	16 (1.85 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Webserver_TCP_sb_COREAHBLSRAM_0_0_lsram_2048to139264x8_32768s_8s_0   ########                                 
+Instance path:   Webserver_TCP_sb_COREAHBLSRAM_0_0_SramCtrlIf_0s_32768s_512s_32s_0_1_2.Webserver_TCP_sb_COREAHBLSRAM_0_0_lsram_2048to139264x8_32768s_8s_0
+=========================================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      12                 3.61 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Webserver_TCP_sb_COREAHBLSRAM_0_0_SramCtrlIf_0s_32768s_512s_32s_0_1_2.Webserver_TCP_sb_COREAHBLSRAM_0_0_lsram_2048to139264x8_32768s_8s_0:	12 (1.38 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     16                 25 %                 
+====================================================
+Total MEMORY ELEMENTS in the block Webserver_TCP_sb_COREAHBLSRAM_0_0_SramCtrlIf_0s_32768s_512s_32s_0_1_2.Webserver_TCP_sb_COREAHBLSRAM_0_0_lsram_2048to139264x8_32768s_8s_0:	16 (1.85 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Webserver_TCP_sb_COREAHBLSRAM_0_0_lsram_2048to139264x8_32768s_8s_1   ########                                 
+Instance path:   Webserver_TCP_sb_COREAHBLSRAM_0_0_SramCtrlIf_0s_32768s_512s_32s_0_1_2.Webserver_TCP_sb_COREAHBLSRAM_0_0_lsram_2048to139264x8_32768s_8s_1
+=========================================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      12                 3.61 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Webserver_TCP_sb_COREAHBLSRAM_0_0_SramCtrlIf_0s_32768s_512s_32s_0_1_2.Webserver_TCP_sb_COREAHBLSRAM_0_0_lsram_2048to139264x8_32768s_8s_1:	12 (1.38 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     16                 25 %                 
+====================================================
+Total MEMORY ELEMENTS in the block Webserver_TCP_sb_COREAHBLSRAM_0_0_SramCtrlIf_0s_32768s_512s_32s_0_1_2.Webserver_TCP_sb_COREAHBLSRAM_0_0_lsram_2048to139264x8_32768s_8s_1:	16 (1.85 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   Webserver_TCP_sb_COREAHBLSRAM_0_0_lsram_2048to139264x8_32768s_8s_2   ########                                 
+Instance path:   Webserver_TCP_sb_COREAHBLSRAM_0_0_SramCtrlIf_0s_32768s_512s_32s_0_1_2.Webserver_TCP_sb_COREAHBLSRAM_0_0_lsram_2048to139264x8_32768s_8s_2
+=========================================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      12                 3.61 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Webserver_TCP_sb_COREAHBLSRAM_0_0_SramCtrlIf_0s_32768s_512s_32s_0_1_2.Webserver_TCP_sb_COREAHBLSRAM_0_0_lsram_2048to139264x8_32768s_8s_2:	12 (1.38 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     16                 25 %                 
+====================================================
+Total MEMORY ELEMENTS in the block Webserver_TCP_sb_COREAHBLSRAM_0_0_SramCtrlIf_0s_32768s_512s_32s_0_1_2.Webserver_TCP_sb_COREAHBLSRAM_0_0_lsram_2048to139264x8_32768s_8s_2:	16 (1.85 % Utilization)
+
+-----------------------------------------------------------------------------------
+########   Utilization report for  cell:   Webserver_TCP_sb_FABOSC_0_OSC   ########
+Instance path:   Webserver_TCP_sb.Webserver_TCP_sb_FABOSC_0_OSC                    
+===================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     2                  22.2 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block Webserver_TCP_sb.Webserver_TCP_sb_FABOSC_0_OSC:	2 (0.23 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  8.33 %               
+===================================================
+Total GLOBAL BUFFERS in the block Webserver_TCP_sb.Webserver_TCP_sb_FABOSC_0_OSC:	1 (0.12 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   Webserver_TCP_sb_MSS   ########
+Instance path:   Webserver_TCP_sb.Webserver_TCP_sb_MSS                    
+==========================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           1                  0.3010 %             
+BLACK BOX     1                  11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block Webserver_TCP_sb.Webserver_TCP_sb_MSS:	2 (0.23 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  16.7 %               
+===================================================
+Total GLOBAL BUFFERS in the block Webserver_TCP_sb.Webserver_TCP_sb_MSS:	2 (0.23 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       55                 82.1 %               
+=================================================
+Total IO PADS in the block Webserver_TCP_sb.Webserver_TCP_sb_MSS:	55 (6.34 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   top_FCCC_0_FCCC   ########
+Instance path:   top.top_FCCC_0_FCCC                                 
+=====================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block top.top_FCCC_0_FCCC:	1 (0.12 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  16.7 %               
+===================================================
+Total GLOBAL BUFFERS in the block top.top_FCCC_0_FCCC:	2 (0.23 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   top_FCCC_1_FCCC   ########
+Instance path:   top.top_FCCC_1_FCCC                                 
+=====================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block top.top_FCCC_1_FCCC:	1 (0.12 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  8.33 %               
+===================================================
+Total GLOBAL BUFFERS in the block top.top_FCCC_1_FCCC:	1 (0.12 % Utilization)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  cell:   top_SERDES_IF_0_SERDES_IF   ########
+Instance path:   top.top_SERDES_IF_0_SERDES_IF                                 
+===============================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block top.top_SERDES_IF_0_SERDES_IF:	1 (0.12 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       1                  1.49 %               
+=================================================
+Total IO PADS in the block top.top_SERDES_IF_0_SERDES_IF:	1 (0.12 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

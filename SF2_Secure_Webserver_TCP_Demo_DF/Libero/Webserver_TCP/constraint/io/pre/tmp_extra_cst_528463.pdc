@@ -1,0 +1,119 @@
+# Microsemi I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: v2021.1 2021.1.0.17
+
+# Family: SmartFusion2 , Die: M2S150TS , Package: 1152 FC
+
+# Date generated: Fri Jun 11 23:12:55 2021 
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+# 
+# User Locked I/O settings
+# 
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+set_io DEVRST_N       \
+    -pinname AE5      \
+    -DIRECTION INPUT
+
+
+set_io RXD0_N         \
+    -pinname AL9      \
+    -DIRECTION INPUT
+
+
+set_io RXD0_P         \
+    -pinname AM9      \
+    -DIRECTION INPUT
+
+
+set_io RXD1_N         \
+    -pinname AL7      \
+    -DIRECTION INPUT
+
+
+set_io RXD1_P         \
+    -pinname AM7      \
+    -DIRECTION INPUT
+
+
+set_io RXD2_N         \
+    -pinname AL5      \
+    -DIRECTION INPUT
+
+
+set_io RXD2_P         \
+    -pinname AM5      \
+    -DIRECTION INPUT
+
+
+set_io RXD3_N         \
+    -pinname AL3      \
+    -DIRECTION INPUT
+
+
+set_io RXD3_P         \
+    -pinname AM3      \
+    -DIRECTION INPUT
+
+
+set_io TXD0_N          \
+    -pinname AP8       \
+    -DIRECTION OUTPUT
+
+
+set_io TXD0_P          \
+    -pinname AN8       \
+    -DIRECTION OUTPUT
+
+
+set_io TXD1_N          \
+    -pinname AP6       \
+    -DIRECTION OUTPUT
+
+
+set_io TXD1_P          \
+    -pinname AN6       \
+    -DIRECTION OUTPUT
+
+
+set_io TXD2_N          \
+    -pinname AP4       \
+    -DIRECTION OUTPUT
+
+
+set_io TXD2_P          \
+    -pinname AN4       \
+    -DIRECTION OUTPUT
+
+
+set_io TXD3_N          \
+    -pinname AP2       \
+    -DIRECTION OUTPUT
+
+
+set_io TXD3_P          \
+    -pinname AN2       \
+    -DIRECTION OUTPUT
+
+

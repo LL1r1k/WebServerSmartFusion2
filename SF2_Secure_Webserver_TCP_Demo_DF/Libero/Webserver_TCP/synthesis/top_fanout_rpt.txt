@@ -1,0 +1,19 @@
+
+########			REPORT FOR HIGH FANOUT NETS			########
+
+CLOCK GLOBAL THRESHOLD - 2
+ASYNC GLOBAL THRESHOLD - 12
+GLOBAL THRESHOLD - 5000
+
+NET NAME                                                  CLOCK LOADS     ASYNC RST LOADS     DATA LOADS     TOTAL FANOUT     GLOBAL BUFFER PRESENT
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Webserver_TCP_sb_0.GL0_INST                               283             0                   0              283              YES                  
+Webserver_TCP_sb_0_INIT_APB_S_PCLK                        112             0                   0              112              YES                  
+Webserver_TCP_sb_0.FABOSC_0_RCOSC_25_50MHZ_O2F            46              0                   0              46               YES                  
+Webserver_TCP_sb_0.FIC_2_APB_M_PRESET_N_arst              0               112                 0              112              YES                  
+Webserver_TCP_sb_0.MSS_HPMS_READY_int_arst                0               110                 0              110              YES                  
+Webserver_TCP_sb_0.CORERESETP_0.sm0_areset_n_clk_base     0               26                  0              26               YES                  
+Webserver_TCP_sb_0.CORERESETP_0.sm0_areset_n_rcosc        0               19                  0              19               YES                  
+Webserver_TCP_sb_0.CORERESETP_0.sm0_areset_n_arst         0               14                  0              14               YES                  
+Webserver_TCP_sb_0.CORERESETP_0.sdif3_areset_n_rcosc      0               14                  0              14               YES                  
+===================================================================================================================================================

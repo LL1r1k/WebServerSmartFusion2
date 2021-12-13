@@ -1,0 +1,64 @@
+Microsemi Corporation - Microsemi Libero Software Release v2021.1 (Version 2021.1.0.17)
+
+Date      :  Fri Jun 11 17:55:54 2021
+Project   :  C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project
+Component :  Webserver_TCP_sb
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/Webserver_TCP_sb/CCC_0/Webserver_TCP_sb_CCC_0_FCCC.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_addrdec.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_defaultslavesm.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_slavearbiter.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_masterstage.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_slavestage.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_matrix4x16.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/Actel/DirectCore/COREAHBLSRAM/2.0.113/rtl/vlog/core/AHBLSramIf.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/Webserver_TCP_sb/COREAHBLSRAM_0_0/rtl/vlog/core/CoreAHBLSRAM.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/Webserver_TCP_sb/COREAHBLSRAM_0_0/rtl/vlog/core/SramCtrlIf.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/Webserver_TCP_sb/COREAHBLSRAM_0_0/rtl/vlog/core/lsram_2048to139264x8.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/Webserver_TCP_sb/COREAHBLSRAM_0_0/rtl/vlog/core/usram_128to9216x8.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/Actel/DirectCore/CoreConfigP/7.1.100/rtl/vlog/core/coreconfigp.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/Webserver_TCP_sb/FABOSC_0/Webserver_TCP_sb_FABOSC_0_OSC.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/Webserver_TCP_sb/Webserver_TCP_sb.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/Webserver_TCP_sb_MSS/Webserver_TCP_sb_MSS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/Actel/SgCore/OSC/2.0.101/osc_comps.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/Webserver_TCP_sb_MSS/Webserver_TCP_sb_MSS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/Webserver_TCP_sb_MSS/Webserver_TCP_sb_MSS_pre.v
+
+Stimulus files for all Simulation tools:
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/Webserver_TCP_sb/subsystem.bfm
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/Webserver_TCP_sb_MSS/CM3_compile_bfm.tcl
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/Webserver_TCP_sb_MSS/user.bfm
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/Webserver_TCP_sb_MSS/test.bfm
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/Actel/SmartFusion2MSS/MSS/1.1.500/peripheral_init.bfm
+
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/Actel/DirectCore/COREAHBLSRAM/2.0.113/coreparameters.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/Webserver_TCP_sb/COREAHBLSRAM_0_0/rtl/vlog/test/user/tb.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/Actel/DirectCore/COREAHBLSRAM/2.0.113/mti/scripts/compileList.do
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/Actel/DirectCore/COREAHBLSRAM/2.0.113/mti/scripts/run.do
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/Actel/DirectCore/COREAHBLSRAM/2.0.113/mti/scripts/wave.do
+
+Firmware files for all Software IDE tools:
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/Webserver_TCP_sb_MSS/sys_config_mss_clocks.h
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/Webserver_TCP_sb_MSS/sys_config_mddr_define.h
+
+Configuration files to be used for Programming:
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/Webserver_TCP_sb_MSS/ENVM.cfg
+
+Configuration files to be used for all Simulation tools:
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/Webserver_TCP_sb_MSS/ENVM.cfg
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/Webserver_TCP_sb_MSS/MDDR_init.bfm
+
+Configuration files to be used for Power Analysis:
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/Webserver_TCP_sb_MSS/MDDR_init.reg
+

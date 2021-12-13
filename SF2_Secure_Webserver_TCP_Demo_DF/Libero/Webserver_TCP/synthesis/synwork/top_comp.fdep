@@ -1,0 +1,145 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\synthesis\\synwork\\top_comp.srs|-top|top|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v2021.1\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microsemi\\Libero_SoC_v2021.1\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLSRAM_LIB|-lib|COREAHBLSRAM_LIB|-lib|COREAHBLSRAM_LIB|-lib|COREAHBLSRAM_LIB|-lib|COREAHBLSRAM_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v2021.1\\SynplifyPro\\bin64\\c_ver.exe":1617265533
+#CUR:"C:\\Microsemi\\Libero_SoC_v2021.1\\SynplifyPro\\lib\\generic\\smartfusion2.v":1617265540
+#CUR:"C:\\Microsemi\\Libero_SoC_v2021.1\\SynplifyPro\\lib\\vlog\\hypermods.v":1617265541
+#CUR:"C:\\Microsemi\\Libero_SoC_v2021.1\\SynplifyPro\\lib\\vlog\\umr_capim.v":1617265541
+#CUR:"C:\\Microsemi\\Libero_SoC_v2021.1\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1617265541
+#CUR:"C:\\Microsemi\\Libero_SoC_v2021.1\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1617265541
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\work\\Webserver_TCP_sb\\CCC_0\\Webserver_TCP_sb_CCC_0_FCCC.v":1623414351
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1623396905
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\work\\Webserver_TCP_sb\\FABOSC_0\\Webserver_TCP_sb_FABOSC_0_OSC.v":1623414353
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\work\\Webserver_TCP_sb_MSS\\Webserver_TCP_sb_MSS_syn.v":1623414346
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\work\\Webserver_TCP_sb_MSS\\Webserver_TCP_sb_MSS.v":1623414347
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\Actel\\DirectCore\\CoreConfigP\\7.1.100\\rtl\\vlog\\core\\coreconfigp.v":1623396903
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp_pcie_hotreset.v":1623396903
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp.v":1623396903
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vlog\\core\\coreahblite_slavearbiter.v":1623396903
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vlog\\core\\coreahblite_slavestage.v":1623396903
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vlog\\core\\coreahblite_defaultslavesm.v":1623396903
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vlog\\core\\coreahblite_addrdec.v":1623396903
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vlog\\core\\coreahblite_masterstage.v":1623396903
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vlog\\core\\coreahblite_matrix4x16.v":1623396903
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\Actel\\DirectCore\\CoreAHBLite\\5.2.100\\rtl\\vlog\\core\\coreahblite.v":1623396903
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\Actel\\DirectCore\\COREAHBLSRAM\\2.0.113\\rtl\\vlog\\core\\AHBLSramIf.v":1623396903
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\work\\Webserver_TCP_sb\\COREAHBLSRAM_0_0\\rtl\\vlog\\core\\lsram_2048to139264x8.v":1623414351
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\work\\Webserver_TCP_sb\\COREAHBLSRAM_0_0\\rtl\\vlog\\core\\usram_128to9216x8.v":1623414351
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\work\\Webserver_TCP_sb\\COREAHBLSRAM_0_0\\rtl\\vlog\\core\\SramCtrlIf.v":1623414351
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\work\\Webserver_TCP_sb\\COREAHBLSRAM_0_0\\rtl\\vlog\\core\\CoreAHBLSRAM.v":1623414351
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\work\\Webserver_TCP_sb\\Webserver_TCP_sb.v":1623414353
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\work\\top\\FCCC_0\\top_FCCC_0_FCCC.v":1623432369
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\work\\top\\FCCC_1\\top_FCCC_1_FCCC.v":1623432371
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\work\\top\\SERDES_IF_0\\top_SERDES_IF_0_SERDES_IF_syn.v":1623432381
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\work\\top\\SERDES_IF_0\\top_SERDES_IF_0_SERDES_IF.v":1623432375
+#CUR:"C:\\tcl_update\\sf2\\dg0516\\516_v8\\DG0516_SF2_Secure_Webserver_TCP_Demo\\Libero_Project\\component\\work\\top\\top.v":1623432393
+0			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\work\Webserver_TCP_sb\CCC_0\Webserver_TCP_sb_CCC_0_FCCC.v" verilog
+1			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
+2			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\work\Webserver_TCP_sb\FABOSC_0\Webserver_TCP_sb_FABOSC_0_OSC.v" verilog
+3			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\work\Webserver_TCP_sb_MSS\Webserver_TCP_sb_MSS_syn.v" verilog
+4			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\work\Webserver_TCP_sb_MSS\Webserver_TCP_sb_MSS.v" verilog
+5			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\Actel\DirectCore\CoreConfigP\7.1.100\rtl\vlog\core\coreconfigp.v" verilog
+6			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" verilog
+7			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" verilog
+8			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v" verilog
+9			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v" verilog
+10			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_defaultslavesm.v" verilog
+11			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_addrdec.v" verilog
+12			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v" verilog
+13			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite_matrix4x16.v" verilog
+14			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\Actel\DirectCore\CoreAHBLite\5.2.100\rtl\vlog\core\coreahblite.v" verilog
+15			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\Actel\DirectCore\COREAHBLSRAM\2.0.113\rtl\vlog\core\AHBLSramIf.v" verilog
+16			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\work\Webserver_TCP_sb\COREAHBLSRAM_0_0\rtl\vlog\core\lsram_2048to139264x8.v" verilog
+17			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\work\Webserver_TCP_sb\COREAHBLSRAM_0_0\rtl\vlog\core\usram_128to9216x8.v" verilog
+18			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\work\Webserver_TCP_sb\COREAHBLSRAM_0_0\rtl\vlog\core\SramCtrlIf.v" verilog
+19			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\work\Webserver_TCP_sb\COREAHBLSRAM_0_0\rtl\vlog\core\CoreAHBLSRAM.v" verilog
+20			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\work\Webserver_TCP_sb\Webserver_TCP_sb.v" verilog
+21			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\work\top\FCCC_0\top_FCCC_0_FCCC.v" verilog
+22			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\work\top\FCCC_1\top_FCCC_1_FCCC.v" verilog
+23			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\work\top\SERDES_IF_0\top_SERDES_IF_0_SERDES_IF_syn.v" verilog
+24			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\work\top\SERDES_IF_0\top_SERDES_IF_0_SERDES_IF.v" verilog
+25			"C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\component\work\top\top.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 1
+3 -1
+4 3
+5 -1
+6 -1
+7 6
+8 -1
+9 8
+10 -1
+11 -1
+12 10 11
+13 9 12
+14 13
+15 -1
+16 -1
+17 -1
+18 17 16
+19 18 15
+20 4 2 7 5 19 14 0
+21 -1
+22 -1
+23 -1
+24 23
+25 20 24 22 21
+#Dependency Lists(Users Of)
+0 20
+1 2
+2 20
+3 4
+4 20
+5 20
+6 7
+7 20
+8 9
+9 13
+10 12
+11 12
+12 13
+13 14
+14 20
+15 19
+16 18
+17 18
+18 19
+19 20
+20 25
+21 25
+22 25
+23 24
+24 25
+25 -1
+#Design Unit to File Association
+module COREAHBLSRAM_LIB Webserver_TCP_sb_COREAHBLSRAM_0_0_COREAHBLSRAM 19
+module COREAHBLSRAM_LIB Webserver_TCP_sb_COREAHBLSRAM_0_0_SramCtrlIf 18
+module COREAHBLSRAM_LIB Webserver_TCP_sb_COREAHBLSRAM_0_0_usram_128to9216x8 17
+module COREAHBLSRAM_LIB Webserver_TCP_sb_COREAHBLSRAM_0_0_lsram_2048to139264x8 16
+module COREAHBLSRAM_LIB AHBLSramIf 15
+module COREAHBLITE_LIB CoreAHBLite 14
+module COREAHBLITE_LIB COREAHBLITE_MATRIX4X16 13
+module COREAHBLITE_LIB COREAHBLITE_MASTERSTAGE 12
+module COREAHBLITE_LIB COREAHBLITE_ADDRDEC 11
+module COREAHBLITE_LIB COREAHBLITE_DEFAULTSLAVESM 10
+module COREAHBLITE_LIB COREAHBLITE_SLAVESTAGE 9
+module COREAHBLITE_LIB COREAHBLITE_SLAVEARBITER 8
+module work top 25
+module work top_SERDES_IF_0_SERDES_IF 24
+module work SERDESIF_120_3 23
+module work top_FCCC_1_FCCC 22
+module work top_FCCC_0_FCCC 21
+module work Webserver_TCP_sb 20
+module work CoreResetP 7
+module work coreresetp_pcie_hotreset 6
+module work CoreConfigP 5
+module work Webserver_TCP_sb_MSS 4
+module work MSS_120 3
+module work Webserver_TCP_sb_FABOSC_0_OSC 2
+module work XTLOSC_FAB 1
+module work RCOSC_25_50MHZ_FAB 1
+module work RCOSC_1MHZ_FAB 1
+module work XTLOSC 1
+module work RCOSC_25_50MHZ 1
+module work RCOSC_1MHZ 1
+module work Webserver_TCP_sb_CCC_0_FCCC 0

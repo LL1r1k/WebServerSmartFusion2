@@ -1,0 +1,35 @@
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       12 
+      Globals that cannot be demoted:      4 
+      Globals considered for demotion:     8 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    283    0      0      'Webserver_TCP_sb_0/CCC_0/GL0_INST' 
+    1      0      0      'FCCC_0/GL0_INST' 
+    1      0      0      'FCCC_0/GL1_INST' 
+    1      0      0      'FCCC_1/GL0_INST' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    112    0      0      'Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/MSS_ADLIB_INST_RNIL2V5' 
+    46     0      0      'Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT' 
+    0      112    0      'Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/FIC_2_APB_M_PRESET_N_keep_RNIEOFD' 
+    0      110    0      'Webserver_TCP_sb_0/CORERESETP_0/MSS_HPMS_READY_int_rep_RNIJ8M8' 
+    0      26     0      'Webserver_TCP_sb_0/CORERESETP_0/sm0_areset_n_clk_base_RNIOOE1' 
+    0      19     0      'Webserver_TCP_sb_0/CORERESETP_0/sm0_areset_n_rcosc_RNIUQKD' 
+    0      14     0      'Webserver_TCP_sb_0/CORERESETP_0/sdif0_areset_n_RNIBFK5' 
+    0      14     0      'Webserver_TCP_sb_0/CORERESETP_0/sdif3_areset_n_rcosc_RNI7FT3' 
+
+Info: Demotion information: 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+

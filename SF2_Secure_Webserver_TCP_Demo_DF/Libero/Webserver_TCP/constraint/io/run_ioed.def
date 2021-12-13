@@ -1,0 +1,40 @@
+data HELP_TYPE_DES 2
+data DESIGN top
+data HPATH 'C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/designer/top'
+data CPATH 'C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/constraint/io'
+data CDIR 'C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/constraint'
+data NLV_HIDE_OPTION_DLG 1
+data REGION_DEFCOLOR_EMPTY 2143322112
+data REGION_DEFCOLOR_INCLUSIVE 2147442270
+data REGION_DEFCOLOR_EXCLUSIVE 2143338688
+data REGION_DEFCOLOR_CLOCK 16735838
+data ETYPE IO
+data FAM SmartFusion2
+data DIE PA4M12000_TS
+data PACKAGE fc1152
+data SPEED -1
+data HYDRA_EXPORT_DATA 1
+data HYDRA_PRESERVE_DATA_FILES 1
+data VCCI_1.2_VOLTR COM
+data VCCI_1.5_VOLTR COM
+data VCCI_1.8_VOLTR COM
+data VCCI_2.5_VOLTR COM
+data VCCI_3.3_VOLTR COM
+data FLOW_TYPE NEW
+data PLANNER_IOMODE 1
+data AFL 'C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/designer/top/COMPILE/top.afl'
+data ADL 'C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/designer/top/top.adl'
+data LOC 'C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/designer/top/COMPILE/top.loc'
+data SEG 'C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/designer/top/COMPILE/top.seg'
+
+data IO_PDC_0 'C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/constraint/io/io_constraints.pdc'
+data TARGET_IOPDC  'C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/constraint/io/user.pdc'
+data TARGET_FPPDC  'C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/constraint/fp/user.pdc'
+data TARGET_DEVICES_FOR_MIGRATION 'PA4M12000_TS '
+data RESTRICTPROBEPINS 1
+data RESTRICTSPIPINS 0
+data GDEV_SKIP_UNASSIGN_CMP_CHECK    1 
+data HIDE_MIGRATION_PINS_MENU        1 
+data PLANNER_IS_READONLY   0 
+data IO_DEFT_STD LVCMOS25
+

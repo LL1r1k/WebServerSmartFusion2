@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Resource Report</title>
+<text>Microsemi Corporation - Microsemi Libero Software Release v2021.1 (Version 2021.1.0.17)</text>
+<text>Date: Fri Jun 11 22:57:27 2021
+</text>
+<section><name>Device Selection</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Family</cell>
+ <cell>SmartFusion2</cell>
+</row>
+<row>
+ <cell>Device</cell>
+ <cell>M2S150TS</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>1152 FC</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+<row>
+ <cell>Temp</cell>
+ <cell>0:25:85</cell>
+</row>
+<row>
+ <cell>Voltage</cell>
+ <cell>1.26:1.20:1.14</cell>
+</row>
+<row>
+ <cell>Core Voltage</cell>
+ <cell>1.2V</cell>
+</row>
+<row>
+ <cell>Ramp Rate</cell>
+ <cell>100ms Minimum</cell>
+</row>
+<row>
+ <cell>System Controller Suspend Mode</cell>
+ <cell>No</cell>
+</row>
+<row>
+ <cell>PLL Supply Voltage</cell>
+ <cell>3.3V</cell>
+</row>
+<row>
+ <cell>Default I/O technology</cell>
+ <cell>LVCMOS 2.5V</cell>
+</row>
+<row>
+ <cell>Restrict Probe Pins</cell>
+ <cell>Yes</cell>
+</row>
+<row>
+ <cell>Restrict SPI Pins</cell>
+ <cell>No</cell>
+</row>
+</table>
+<section><name>Source Files</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Topcell</cell>
+ <cell>top</cell>
+</row>
+<row>
+ <cell>Format</cell>
+ <cell>Verilog</cell>
+</row>
+<row>
+ <cell>Source</cell>
+ <cell>C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\synthesis\top.vm</cell>
+</row>
+</table>
+<section><name>Options</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Enable Single Event Transient mitigation</cell>
+ <cell>false</cell>
+</row>
+<row>
+ <cell>Enable Design Separation Methodology</cell>
+ <cell>false</cell>
+</row>
+<row>
+ <cell>Limit the number of high fanout nets to display to</cell>
+ <cell>10</cell>
+</row>
+</table>
+<section><name>Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>Used</cell>
+ <cell>Total</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>4LUT</cell>
+ <cell>2664</cell>
+ <cell>146124</cell>
+ <cell>1.82</cell>
+</row>
+<row>
+ <cell>DFF</cell>
+ <cell>2614</cell>
+ <cell>146124</cell>
+ <cell>1.79</cell>
+</row>
+<row>
+ <cell>I/O Register</cell>
+ <cell>0</cell>
+ <cell>1722</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>User I/O</cell>
+ <cell>71</cell>
+ <cell>574</cell>
+ <cell>12.37</cell>
+</row>
+<row>
+ <cell>-- Single-ended I/O</cell>
+ <cell>63</cell>
+ <cell>574</cell>
+ <cell>10.98</cell>
+</row>
+<row>
+ <cell>-- Differential I/O Pairs</cell>
+ <cell>4</cell>
+ <cell>287</cell>
+ <cell>1.39</cell>
+</row>
+<row>
+ <cell>RAM64x18</cell>
+ <cell>0</cell>
+ <cell>240</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>RAM1K18</cell>
+ <cell>64</cell>
+ <cell>236</cell>
+ <cell>27.12</cell>
+</row>
+<row>
+ <cell>MACC</cell>
+ <cell>0</cell>
+ <cell>240</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>Chip Globals</cell>
+ <cell>12</cell>
+ <cell>16</cell>
+ <cell>75.00</cell>
+</row>
+<row>
+ <cell>CCC</cell>
+ <cell>3</cell>
+ <cell>8</cell>
+ <cell>37.50</cell>
+</row>
+<row>
+ <cell>RCOSC_25_50MHZ</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>RCOSC_1MHZ</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>XTLOSC</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>SERDESIF Blocks</cell>
+ <cell>1</cell>
+ <cell>4</cell>
+ <cell>25.00</cell>
+</row>
+<row>
+ <cell>-- SERDESIF Lanes</cell>
+ <cell>1</cell>
+ <cell>16</cell>
+ <cell>6.25</cell>
+</row>
+<row>
+ <cell>FDDR</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>MSS</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+</table>
+<section><name>Detailed Logic Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>4LUT</cell>
+ <cell>DFF</cell>
+</header>
+<row>
+ <cell>Fabric Logic</cell>
+ <cell>360</cell>
+ <cell>310</cell>
+</row>
+<row>
+ <cell>RAM64x18 Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>RAM1K18 Interface Logic</cell>
+ <cell>2304</cell>
+ <cell>2304</cell>
+</row>
+<row>
+ <cell>MACC Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Total Used</cell>
+ <cell>2664</cell>
+ <cell>2614</cell>
+</row>
+</table>
+<section><name>MSS Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>Used</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Cortex-M3*</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>eNVM (512KB)*</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>eSRAM*</cell>
+ <cell>2</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>TIMER*</cell>
+ <cell>2</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>CAN</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>SPI</cell>
+ <cell>1</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>I2C</cell>
+ <cell>0</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>UART</cell>
+ <cell>1</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>USB</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>MAC</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>MDDR</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>HPDMA</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>PDMA</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text>* These resources are always marked as used when you are using the MSS</text>
+<text></text>
+<section><name>SERDESIF Lanes Usage</name></section>
+<table>
+<header>
+ <cell>SERDESIF</cell>
+ <cell>Lane0</cell>
+ <cell>Lane1</cell>
+ <cell>Lane2</cell>
+ <cell>Lane3</cell>
+</header>
+<row>
+ <cell>SERDESIF_3</cell>
+ <cell>----</cell>
+ <cell>----</cell>
+ <cell>----</cell>
+ <cell>EPCS</cell>
+</row>
+</table>
+<section><name>Detailed Carry Chains Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>13</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>14</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>2</cell>
+</row>
+</table>
+<section><name>I/O Function</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>w/o register</cell>
+ <cell>w/ register</cell>
+ <cell>w/ DDR register</cell>
+</header>
+<row>
+ <cell>Input I/O</cell>
+ <cell>3</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Output I/O</cell>
+ <cell>39</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Bidirectional I/O</cell>
+ <cell>21</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Input I/O Pairs</cell>
+ <cell>1</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Output I/O Pairs</cell>
+ <cell>1</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Bidirectional I/O Pairs</cell>
+ <cell>2</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+</table>
+<section><name>I/O Technology</name></section>
+<table>
+<header>
+ <cell>I/O Standard</cell>
+ <cell>Vddi</cell>
+ <cell>Vref</cell>
+ <cell>Input</cell>
+ <cell>Output</cell>
+ <cell>Bidirectional</cell>
+</header>
+<row>
+ <cell>LVCMOS25</cell>
+ <cell> 2.50v</cell>
+ <cell> N/A</cell>
+ <cell> 2</cell>
+ <cell> 12</cell>
+ <cell> 3</cell>
+</row>
+<row>
+ <cell>SSTL15I (Input/Bidirectional)</cell>
+ <cell> 1.50v</cell>
+ <cell> 0.75v</cell>
+ <cell> 1</cell>
+ <cell> 0</cell>
+ <cell> 22</cell>
+</row>
+<row>
+ <cell>SSTL15I (Output)</cell>
+ <cell> 1.50v</cell>
+ <cell> N/A</cell>
+ <cell> 0</cell>
+ <cell> 29</cell>
+ <cell> 0</cell>
+</row>
+<row>
+ <cell>LVDS</cell>
+ <cell> 2.50v</cell>
+ <cell> N/A</cell>
+ <cell> 2</cell>
+ <cell> 0</cell>
+ <cell> 0</cell>
+</row>
+</table>
+<section><name>Nets assigned to chip global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>283</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/GL0_INST</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/CCC_0/GL0_INST/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>112</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0_INIT_APB_S_PCLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/MSS_ADLIB_INST_RNIL2V5/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>112</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/FIC_2_APB_M_PRESET_N_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/FIC_2_APB_M_PRESET_N_keep_RNIEOFD/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>110</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/MSS_HPMS_READY_int_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/CORERESETP_0/MSS_HPMS_READY_int_rep_RNIJ8M8/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>46</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/FABOSC_0_RCOSC_25_50MHZ_O2F</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>26</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/CORERESETP_0/sm0_areset_n_clk_base_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/CORERESETP_0/sm0_areset_n_clk_base_RNIOOE1/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>19</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/CORERESETP_0/sm0_areset_n_rcosc_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/CORERESETP_0/sm0_areset_n_rcosc_RNIUQKD/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>14</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/CORERESETP_0/sm0_areset_n_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/CORERESETP_0/sdif0_areset_n_RNIBFK5/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>14</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/CORERESETP_0/sdif3_areset_n_rcosc_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/CORERESETP_0/sdif3_areset_n_rcosc_RNI7FT3/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>1</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : FCCC_0_GL1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: FCCC_0/GL1_INST/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>1</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : FCCC_1_GL0</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: FCCC_1/GL0_INST/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>1</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : FCCC_0_GL0</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: FCCC_0/GL0_INST/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+</table>
+<section><name>Nets assigned to row global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+</table>
+<section><name>High fanout nets</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>129</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/MSS_HPMS_READY_int</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/CORERESETP_0/MSS_HPMS_READY_int</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[15]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[15]</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[14]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[14]</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[13]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[13]</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[12]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[12]</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[11]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[11]</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[10]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[10]</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[9]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[9]</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[8]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[8]</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[7]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[7]</cell>
+</row>
+</table>
+<section><name>High fanout nets (through buffer trees)</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>129</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/MSS_HPMS_READY_int</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/CORERESETP_0/MSS_HPMS_READY_int</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[15]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[15]</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[14]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[14]</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[13]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[13]</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[12]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[12]</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[11]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[11]</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[10]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[10]</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[9]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[9]</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[8]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[8]</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[7]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[7]</cell>
+</row>
+</table>
+</doc>

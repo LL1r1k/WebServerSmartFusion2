@@ -1,0 +1,722 @@
+# Fri Jun 11 22:57:06 2021
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2020.09M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v2021.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: HYD-LT-I53165
+
+Implementation : synthesis
+Synopsys Generic Technology Mapper, Version map202009act, Build 069R, Built Mar 17 2021 10:25:05, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 130MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 130MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 130MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 130MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 169MB peak: 169MB)
+
+@N: MO111 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\work\webserver_tcp_sb\fabosc_0\webserver_tcp_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.Webserver_TCP_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.Webserver_TCP_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\work\webserver_tcp_sb\fabosc_0\webserver_tcp_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.Webserver_TCP_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.Webserver_TCP_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\work\webserver_tcp_sb\fabosc_0\webserver_tcp_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.Webserver_TCP_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.Webserver_TCP_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\work\webserver_tcp_sb\fabosc_0\webserver_tcp_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.Webserver_TCP_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.Webserver_TCP_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@W: BN132 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.sdif3_spll_lock_q1 because it is equivalent to instance Webserver_TCP_sb_0.CORERESETP_0.sdif2_spll_lock_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.sdif3_spll_lock_q2 because it is equivalent to instance Webserver_TCP_sb_0.CORERESETP_0.sdif2_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\work\webserver_tcp_sb\coreahblsram_0_0\rtl\vlog\core\lsram_2048to139264x8.v":229:4:229:9|Removing sequential instance Webserver_TCP_sb_0.COREAHBLSRAM_0_0.U_SramCtrlIf.genblk1.byte_3.ckRdAddr[14] because it is equivalent to instance Webserver_TCP_sb_0.COREAHBLSRAM_0_0.U_SramCtrlIf.genblk1.byte_2.ckRdAddr[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\work\webserver_tcp_sb\coreahblsram_0_0\rtl\vlog\core\lsram_2048to139264x8.v":229:4:229:9|Removing sequential instance Webserver_TCP_sb_0.COREAHBLSRAM_0_0.U_SramCtrlIf.genblk1.byte_2.ckRdAddr[14] because it is equivalent to instance Webserver_TCP_sb_0.COREAHBLSRAM_0_0.U_SramCtrlIf.genblk1.byte_1.ckRdAddr[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\work\webserver_tcp_sb\coreahblsram_0_0\rtl\vlog\core\lsram_2048to139264x8.v":229:4:229:9|Removing sequential instance Webserver_TCP_sb_0.COREAHBLSRAM_0_0.U_SramCtrlIf.genblk1.byte_1.ckRdAddr[14] because it is equivalent to instance Webserver_TCP_sb_0.COREAHBLSRAM_0_0.U_SramCtrlIf.genblk1.byte_0.ckRdAddr[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 174MB)
+
+@W: MO160 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":229:0:229:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.SDATASELInt[16] (in view view:work.Webserver_TCP_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Register bit CoreAHBLite_0.matrix4x16.masterstage_0.regHSIZE[2] (in view view:work.Webserver_TCP_sb(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance masterDataInProg[3] (in view: COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_0s_0_0_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance masterDataInProg[2] (in view: COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_0s_0_0_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavestage.v":79:4:79:9|Removing sequential instance masterDataInProg[1] (in view: COREAHBLITE_LIB.COREAHBLITE_SLAVESTAGE_0s_0_0_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+Encoding state machine arbRegSMCurrentState[15:0] (in view: COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_Z3_0(verilog))
+original code -> new code
+   0000 -> 0000000000000001
+   0001 -> 0000000000000010
+   0010 -> 0000000000000100
+   0011 -> 0000000000001000
+   0100 -> 0000000000010000
+   0101 -> 0000000000100000
+   0110 -> 0000000001000000
+   0111 -> 0000000010000000
+   1000 -> 0000000100000000
+   1001 -> 0000001000000000
+   1010 -> 0000010000000000
+   1011 -> 0000100000000000
+   1100 -> 0001000000000000
+   1101 -> 0010000000000000
+   1110 -> 0100000000000000
+   1111 -> 1000000000000000
+@W: MO160 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Register bit arbRegSMCurrentState[12] (in view view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_Z3_0(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Register bit arbRegSMCurrentState[8] (in view view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_Z3_0(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Register bit arbRegSMCurrentState[4] (in view view:COREAHBLITE_LIB.COREAHBLITE_SLAVEARBITER_Z3_0(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+Encoding state machine ahbcurr_state[2:0] (in view: COREAHBLSRAM_LIB.AHBLSramIf(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblsram\2.0.113\rtl\vlog\core\ahblsramif.v":161:3:161:8|Removing sequential instance HADDR_d[17] (in view: COREAHBLSRAM_LIB.AHBLSramIf(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblsram\2.0.113\rtl\vlog\core\ahblsramif.v":161:3:161:8|Removing sequential instance HADDR_d[18] (in view: COREAHBLSRAM_LIB.AHBLSramIf(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblsram\2.0.113\rtl\vlog\core\ahblsramif.v":161:3:161:8|Removing sequential instance HADDR_d[19] (in view: COREAHBLSRAM_LIB.AHBLSramIf(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+Encoding state machine sramcurr_state[2:0] (in view: COREAHBLSRAM_LIB.Webserver_TCP_sb_COREAHBLSRAM_0_0_SramCtrlIf_0s_32768s_512s_32s_0_1_2(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine state[2:0] (in view: work.CoreConfigP_Z5(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z6(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine sdif3_state[3:0] (in view: work.CoreResetP_Z6(verilog))
+original code -> new code
+   000 -> 00
+   001 -> 01
+   010 -> 10
+   011 -> 11
+@N: MO225 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|There are no possible illegal states for state machine sdif3_state[3:0] (in view: work.CoreResetP_Z6(verilog)); safe FSM implementation is not required.
+@N: MO231 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Found counter in view:work.CoreResetP_Z6(verilog) instance count_ddr[13:0] 
+@N: MO231 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Found counter in view:work.CoreResetP_Z6(verilog) instance count_sdif3[12:0] 
+@W: BN132 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing instance Webserver_TCP_sb_0.CORERESETP_0.SDIF_READY_int because it is equivalent to instance Webserver_TCP_sb_0.CORERESETP_0.sm0_state[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine state[3:0] (in view: work.coreresetp_pcie_hotreset(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":179:4:179:9|There are no possible illegal states for state machine state[3:0] (in view: work.coreresetp_pcie_hotreset(verilog)); safe FSM implementation is not required.
+@N: MO231 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":227:4:227:9|Found counter in view:work.coreresetp_pcie_hotreset(verilog) instance count[6:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[20] (in view: work.Webserver_TCP_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[21] (in view: work.Webserver_TCP_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[22] (in view: work.Webserver_TCP_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[23] (in view: work.Webserver_TCP_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[28] (in view: work.Webserver_TCP_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[29] (in view: work.Webserver_TCP_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[30] (in view: work.Webserver_TCP_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[31] (in view: work.Webserver_TCP_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[17] (in view: work.Webserver_TCP_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[18] (in view: work.Webserver_TCP_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_masterstage.v":163:0:163:5|Removing sequential instance CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[19] (in view: work.Webserver_TCP_sb(verilog)) because it does not drive other instances.
+Auto Dissolve of COREAHBLSRAM_0_0.U_SramCtrlIf (inst of view:COREAHBLSRAM_LIB.Webserver_TCP_sb_COREAHBLSRAM_0_0_SramCtrlIf_0s_32768s_512s_32s_0_1_2(verilog))
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblsram\2.0.113\rtl\vlog\core\ahblsramif.v":161:3:161:8|Removing sequential instance COREAHBLSRAM_0_0.U_AHBLSramIf.HSIZE_d[2] (in view: work.Webserver_TCP_sb(verilog)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 180MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.DDR_READY_int (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":257:4:257:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.sdif_core_reset_n (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":257:4:257:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.sdif_core_reset_n_q1 (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":179:4:179:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.hot_reset_n (in view: work.top(verilog)) because it does not drive other instances.
+@W: BN132 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing instance Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.slavestage_0.slave_arbiter.arbRegSMCurrentState[7] because it is equivalent to instance Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.slavestage_0.slave_arbiter.arbRegSMCurrentState[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing instance Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.slavestage_0.slave_arbiter.arbRegSMCurrentState[3] because it is equivalent to instance Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.slavestage_0.slave_arbiter.arbRegSMCurrentState[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing instance Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.slavestage_0.slave_arbiter.arbRegSMCurrentState[15] because it is equivalent to instance Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.slavestage_0.slave_arbiter.arbRegSMCurrentState[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing instance Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.slavestage_0.slave_arbiter.arbRegSMCurrentState[14] because it is equivalent to instance Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.slavestage_0.slave_arbiter.arbRegSMCurrentState[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing instance Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.slavestage_0.slave_arbiter.arbRegSMCurrentState[6] because it is equivalent to instance Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.slavestage_0.slave_arbiter.arbRegSMCurrentState[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing instance Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.slavestage_0.slave_arbiter.arbRegSMCurrentState[2] because it is equivalent to instance Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.slavestage_0.slave_arbiter.arbRegSMCurrentState[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.slavestage_0.slave_arbiter.arbRegSMCurrentState[10] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreahblite\5.2.100\rtl\vlog\core\coreahblite_slavearbiter.v":449:4:449:9|Removing sequential instance Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.slavestage_0.slave_arbiter.arbRegSMCurrentState[11] (in view: work.top(verilog)) because it does not drive other instances.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 181MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 181MB peak: 182MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 182MB peak: 182MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 182MB peak: 182MB)
+
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":227:4:227:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.count[6] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":227:4:227:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.count[5] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":227:4:227:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.count[4] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":227:4:227:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.count[3] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":227:4:227:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.count[2] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":227:4:227:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.count[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":227:4:227:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.count[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.SDIF3_CORE_RESET_N_0 (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":84:4:84:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.reset_n_clk_ltssm (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":99:4:99:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.pwrite_q2 (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":99:4:99:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.psel_q2 (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":84:4:84:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.reset_n_q1 (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":134:4:134:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.LTSSM_HotReset_q (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":134:4:134:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.LTSSM_Disabled_q (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":134:4:134:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.LTSSM_DetectQuiet_q (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":99:4:99:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.pwrite_q1 (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":99:4:99:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.psel_q1 (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":134:4:134:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.LTSSM_HotReset (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":134:4:134:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.LTSSM_Disabled (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":134:4:134:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.LTSSM_DetectQuiet (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":134:4:134:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.LTSSM_HotReset_entry_p (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":134:4:134:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.LTSSM_Disabled_entry_p (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":134:4:134:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.LTSSM_DetectQuiet_entry_p (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":179:4:179:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.state[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":179:4:179:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.state[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":99:4:99:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.ltssm_q1[4] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":99:4:99:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.ltssm_q1[3] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":99:4:99:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.ltssm_q1[2] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":99:4:99:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.ltssm_q1[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":99:4:99:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.ltssm_q1[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":99:4:99:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.ltssm_q2[4] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":99:4:99:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.ltssm_q2[3] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":99:4:99:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.ltssm_q2[2] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":99:4:99:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.ltssm_q2[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v":99:4:99:9|Removing sequential instance Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.ltssm_q2[0] (in view: work.top(verilog)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 182MB peak: 182MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 183MB peak: 183MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:05s		    -1.31ns		 399 /       309
+   2		0h:00m:05s		    -1.31ns		 396 /       309
+
+   3		0h:00m:06s		    -1.31ns		 398 /       309
+
+
+   4		0h:00m:06s		    -0.81ns		 399 /       309
+@N: FP130 |Promoting Net Webserver_TCP_sb_0.FIC_2_APB_M_PRESET_N_arst on CLKINT  I_92 
+@N: FP130 |Promoting Net Webserver_TCP_sb_0_INIT_APB_S_PCLK on CLKINT  I_93 
+@N: FP130 |Promoting Net Webserver_TCP_sb_0.MSS_HPMS_READY_int_arst on CLKINT  I_94 
+@N: FP130 |Promoting Net Webserver_TCP_sb_0.CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_95 
+@N: FP130 |Promoting Net Webserver_TCP_sb_0.CORERESETP_0.sm0_areset_n_rcosc on CLKINT  I_96 
+@N: FP130 |Promoting Net Webserver_TCP_sb_0.CORERESETP_0.sdif3_areset_n_rcosc on CLKINT  I_97 
+@N: FP130 |Promoting Net Webserver_TCP_sb_0.CORERESETP_0.sm0_areset_n_arst on CLKINT  I_98 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 183MB peak: 183MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 183MB peak: 184MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+3 non-gated/non-generated clock tree(s) driving 159 clock pin(s) of sequential element(s)
+4 gated/generated clock tree(s) driving 286 clock pin(s) of sequential element(s)
+0 instances converted, 286 sequential instances remain driven by gated/generated clocks
+
+============================================================================ Non-Gated/Non-Generated Clocks =============================================================================
+Clock Tree ID     Driving Element                                              Drive Element Type                     Fanout     Sample Instance                                         
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0005       SERDES_IF_0.refclk1_inbuf_diff                               INBUF_DIFF                             1          SERDES_IF_0.SERDESIF_INST                               
+@K:CKID0006       Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST     clock definition on MSS_120            112        Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST
+@K:CKID0007       Webserver_TCP_sb_0.FABOSC_0.I_RCOSC_25_50MHZ                 clock definition on RCOSC_25_50MHZ     46         Webserver_TCP_sb_0.CORERESETP_0.ddr_settled             
+=========================================================================================================================================================================================
+============================================================================================= Gated/Generated Clocks =============================================================================================
+Clock Tree ID     Driving Element                       Drive Element Type     Fanout     Sample Instance                                              Explanation                                                
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       Webserver_TCP_sb_0.CCC_0.CCC_INST     CCC                    283        Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_120
+@K:CKID0002       FCCC_0.CCC_INST                       CCC                    1          Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_120
+@K:CKID0003       FCCC_0.CCC_INST                       CCC                    1          Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_120
+@K:CKID0004       FCCC_1.CCC_INST                       CCC                    1          Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_120
+==================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 148MB peak: 184MB)
+
+Writing Analyst data base C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\synthesis\synwork\top_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 180MB peak: 184MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 182MB peak: 184MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 182MB peak: 184MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 180MB peak: 184MB)
+
+@W: MT246 :"c:\tcl_update\sf2\dg0516\516_v8\dg0516_sf2_secure_webserver_tcp_demo\libero_project\component\work\webserver_tcp_sb\ccc_0\webserver_tcp_sb_ccc_0_fccc.v":23:36:23:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@N: MT615 |Found clock SERDES_IF_0/SERDESIF_INST/EPCS_RXCLK[1] with period 8.00ns 
+@N: MT615 |Found clock SERDES_IF_0/SERDESIF_INST/EPCS_TXCLK[1] with period 8.00ns 
+@N: MT615 |Found clock Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT with period 20.00ns 
+@N: MT615 |Found clock Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB with period 40.00ns 
+@N: MT615 |Found clock FCCC_0/GL0 with period 16.00ns 
+@N: MT615 |Found clock FCCC_0/GL1 with period 16.00ns 
+@N: MT615 |Found clock FCCC_1/GL0 with period 8.00ns 
+@N: MT615 |Found clock Webserver_TCP_sb_0/CCC_0/GL0 with period 10.00ns 
+@N: MT615 |Found clock Webserver_TCP_sb_0/CCC_0/GL3 with period 8.00ns 
+@W: MT420 |Found inferred clock top_SERDES_IF_0_SERDES_IF|REFCLK1_OUT_inferred_clock with period 10.00ns. Please declare a user-defined clock on net SERDES_IF_0.REFCLK1_OUT.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Fri Jun 11 22:57:16 2021
+#
+
+
+Top view:               top
+Requested Frequency:    25.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\designer\top\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 0.520
+
+                                                             Requested     Estimated     Requested     Estimated                Clock                                                                    Clock              
+Starting Clock                                               Frequency     Frequency     Period        Period        Slack      Type                                                                     Group              
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FCCC_0/GL0                                                   62.5 MHz      NA            16.000        NA            NA         generated (from SERDES_IF_0/SERDESIF_INST/EPCS_RXCLK[1])                 default_clkgroup   
+FCCC_0/GL1                                                   62.5 MHz      NA            16.000        NA            NA         generated (from SERDES_IF_0/SERDESIF_INST/EPCS_RXCLK[1])                 default_clkgroup   
+FCCC_1/GL0                                                   125.0 MHz     NA            8.000         NA            NA         generated (from SERDES_IF_0/SERDESIF_INST/EPCS_TXCLK[1])                 default_clkgroup   
+SERDES_IF_0/SERDESIF_INST/EPCS_RXCLK[1]                      125.0 MHz     NA            8.000         NA            NA         declared                                                                 default_clkgroup   
+SERDES_IF_0/SERDESIF_INST/EPCS_TXCLK[1]                      125.0 MHz     NA            8.000         NA            NA         declared                                                                 default_clkgroup   
+Webserver_TCP_sb_0/CCC_0/GL0                                 100.0 MHz     105.5 MHz     10.000        9.480         0.520      generated (from Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup   
+Webserver_TCP_sb_0/CCC_0/GL3                                 125.0 MHz     NA            8.000         NA            NA         generated (from Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup   
+Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT          50.0 MHz      502.7 MHz     20.000        1.989         18.011     declared                                                                 default_clkgroup   
+Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB     25.0 MHz      114.5 MHz     40.000        8.731         15.829     declared                                                                 default_clkgroup   
+top_SERDES_IF_0_SERDES_IF|REFCLK1_OUT_inferred_clock         100.0 MHz     NA            10.000        NA            NA         inferred                                                                 Inferred_clkgroup_0
+System                                                       100.0 MHz     NA            10.000        NA            NA         system                                                                   system_clkgroup    
+============================================================================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                              |    rise  to  rise    |    fall  to  fall   |    rise  to  fall    |    fall  to  rise  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                  Ending                                                    |  constraint  slack   |  constraint  slack  |  constraint  slack   |  constraint  slack 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT       Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT       |  20.000      18.011  |  No paths    -      |  No paths    -       |  No paths    -     
+Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT       Webserver_TCP_sb_0/CCC_0/GL0                              |  10.000      False   |  No paths    -      |  No paths    -       |  No paths    -     
+Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB  Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB  |  40.000      31.269  |  No paths    -      |  20.000      17.792  |  20.000      15.829
+Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB  Webserver_TCP_sb_0/CCC_0/GL0                              |  10.000      False   |  No paths    -      |  No paths    -       |  No paths    -     
+Webserver_TCP_sb_0/CCC_0/GL0                              Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT       |  10.000      False   |  No paths    -      |  No paths    -       |  No paths    -     
+Webserver_TCP_sb_0/CCC_0/GL0                              Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB  |  10.000      False   |  No paths    -      |  No paths    -       |  No paths    -     
+Webserver_TCP_sb_0/CCC_0/GL0                              Webserver_TCP_sb_0/CCC_0/GL0                              |  10.000      0.520   |  No paths    -      |  No paths    -       |  No paths    -     
+=============================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: Webserver_TCP_sb_0/CCC_0/GL0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                               Starting                                                                                                                  Arrival          
+Instance                                                                       Reference                        Type        Pin                Net                                                       Time        Slack
+                                                                               Clock                                                                                                                                      
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST                       Webserver_TCP_sb_0/CCC_0/GL0     MSS_120     F_HM0_ADDR[26]     Webserver_TCP_sb_MSS_TMP_0_FIC_0_AHB_MASTER_HADDR[26]     2.454       0.520
+Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST                       Webserver_TCP_sb_0/CCC_0/GL0     MSS_120     F_HM0_ADDR[27]     Webserver_TCP_sb_MSS_TMP_0_FIC_0_AHB_MASTER_HADDR[27]     2.490       0.551
+Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST                       Webserver_TCP_sb_0/CCC_0/GL0     MSS_120     F_HM0_TRANS1       Webserver_TCP_sb_MSS_TMP_0_FIC_0_AHB_MASTER_HTRANS[1]     2.512       0.882
+Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST                       Webserver_TCP_sb_0/CCC_0/GL0     MSS_120     F_HM0_ADDR[24]     Webserver_TCP_sb_MSS_TMP_0_FIC_0_AHB_MASTER_HADDR[24]     2.472       0.965
+Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST                       Webserver_TCP_sb_0/CCC_0/GL0     MSS_120     F_HM0_ADDR[25]     Webserver_TCP_sb_MSS_TMP_0_FIC_0_AHB_MASTER_HADDR[25]     2.503       1.043
+Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.masterRegAddrSel     Webserver_TCP_sb_0/CCC_0/GL0     SLE         Q                  masterRegAddrSel                                          0.094       2.280
+Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[26]         Webserver_TCP_sb_0/CCC_0/GL0     SLE         Q                  regHADDR[26]                                              0.094       3.057
+Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[27]         Webserver_TCP_sb_0/CCC_0/GL0     SLE         Q                  regHADDR[27]                                              0.094       3.124
+Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.regHTRANS            Webserver_TCP_sb_0/CCC_0/GL0     SLE         Q                  regHTRANS                                                 0.094       3.477
+Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.regHADDR[24]         Webserver_TCP_sb_0/CCC_0/GL0     SLE         Q                  regHADDR[24]                                              0.094       3.521
+==========================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                            Starting                                                                 Required          
+Instance                                                                    Reference                        Type        Pin          Net            Time         Slack
+                                                                            Clock                                                                                      
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Webserver_TCP_sb_0.COREAHBLSRAM_0_0.U_SramCtrlIf.genblk1\.byte_0.block0     Webserver_TCP_sb_0/CCC_0/GL0     RAM1K18     A_WEN[0]     wen_a7[0]      9.590        0.520
+Webserver_TCP_sb_0.COREAHBLSRAM_0_0.U_SramCtrlIf.genblk1\.byte_0.block1     Webserver_TCP_sb_0/CCC_0/GL0     RAM1K18     A_WEN[0]     wen_a7[0]      9.590        0.520
+Webserver_TCP_sb_0.COREAHBLSRAM_0_0.U_SramCtrlIf.genblk1\.byte_0.block2     Webserver_TCP_sb_0/CCC_0/GL0     RAM1K18     A_WEN[0]     wen_a7[0]      9.590        0.520
+Webserver_TCP_sb_0.COREAHBLSRAM_0_0.U_SramCtrlIf.genblk1\.byte_0.block3     Webserver_TCP_sb_0/CCC_0/GL0     RAM1K18     A_WEN[0]     wen_a7[0]      9.590        0.520
+Webserver_TCP_sb_0.COREAHBLSRAM_0_0.U_SramCtrlIf.genblk1\.byte_0.block4     Webserver_TCP_sb_0/CCC_0/GL0     RAM1K18     A_WEN[0]     wen_a7[0]      9.590        0.520
+Webserver_TCP_sb_0.COREAHBLSRAM_0_0.U_SramCtrlIf.genblk1\.byte_0.block5     Webserver_TCP_sb_0/CCC_0/GL0     RAM1K18     A_WEN[0]     wen_a7[0]      9.590        0.520
+Webserver_TCP_sb_0.COREAHBLSRAM_0_0.U_SramCtrlIf.genblk1\.byte_0.block6     Webserver_TCP_sb_0/CCC_0/GL0     RAM1K18     A_WEN[0]     wen_a7[0]      9.590        0.520
+Webserver_TCP_sb_0.COREAHBLSRAM_0_0.U_SramCtrlIf.genblk1\.byte_0.block7     Webserver_TCP_sb_0/CCC_0/GL0     RAM1K18     A_WEN[0]     wen_a7[0]      9.590        0.520
+Webserver_TCP_sb_0.COREAHBLSRAM_0_0.U_SramCtrlIf.genblk1\.byte_0.block8     Webserver_TCP_sb_0/CCC_0/GL0     RAM1K18     A_WEN[0]     wen_a15[0]     9.590        0.520
+Webserver_TCP_sb_0.COREAHBLSRAM_0_0.U_SramCtrlIf.genblk1\.byte_0.block9     Webserver_TCP_sb_0/CCC_0/GL0     RAM1K18     A_WEN[0]     wen_a15[0]     9.590        0.520
+=======================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.410
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.590
+
+    - Propagation time:                      9.070
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     0.520
+
+    Number of logic level(s):                6
+    Starting point:                          Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[26]
+    Ending point:                            Webserver_TCP_sb_0.COREAHBLSRAM_0_0.U_SramCtrlIf.genblk1\.byte_0.block0 / A_WEN[0]
+    The start point is clocked by            Webserver_TCP_sb_0/CCC_0/GL0 [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+    The end   point is clocked by            Webserver_TCP_sb_0/CCC_0/GL0 [rising] (rise=0.000 fall=5.000 period=10.000) on pin A_CLK
+
+Instance / Net                                                                                                         Pin                Pin               Arrival     No. of    
+Name                                                                                                       Type        Name               Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST                                                   MSS_120     F_HM0_ADDR[26]     Out     2.454     2.454 f     -         
+Webserver_TCP_sb_MSS_TMP_0_FIC_0_AHB_MASTER_HADDR[26]                                                      Net         -                  -       0.432     -           2         
+Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.PREGATEDHADDR[26]                                CFG3        B                  In      -         2.886 f     -         
+Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.PREGATEDHADDR[26]                                CFG3        Y                  Out     0.143     3.029 f     -         
+M0GATEDHADDR[26]                                                                                           Net         -                  -       0.920     -           10        
+Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.SADDRSEL_sx[0]                                   CFG2        B                  In      -         3.949 f     -         
+Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.SADDRSEL_sx[0]                                   CFG2        Y                  Out     0.143     4.092 f     -         
+SADDRSEL_sx[0]                                                                                             Net         -                  -       0.432     -           2         
+Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.SADDRSEL[0]                                      CFG4        B                  In      -         4.524 f     -         
+Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.masterstage_0.SADDRSEL[0]                                      CFG4        Y                  Out     0.129     4.653 r     -         
+m0s0AddrSel                                                                                                Net         -                  -       0.849     -           8         
+Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.slavestage_0.slave_arbiter.arbRegSMCurrentState_RNIT64P[0]     CFG3        B                  In      -         5.502 r     -         
+Webserver_TCP_sb_0.CoreAHBLite_0.matrix4x16.slavestage_0.slave_arbiter.arbRegSMCurrentState_RNIT64P[0]     CFG3        Y                  Out     0.143     5.645 r     -         
+masterAddrInProg[0]                                                                                        Net         -                  -       1.080     -           27        
+Webserver_TCP_sb_0.COREAHBLSRAM_0_0.U_AHBLSramIf.HSIZE_d_RNIMRE82[1]                                       CFG4        B                  In      -         6.726 r     -         
+Webserver_TCP_sb_0.COREAHBLSRAM_0_0.U_AHBLSramIf.HSIZE_d_RNIMRE82[1]                                       CFG4        Y                  Out     0.143     6.869 r     -         
+ahbsram_size[1]                                                                                            Net         -                  -       0.849     -           8         
+Webserver_TCP_sb_0.COREAHBLSRAM_0_0.U_SramCtrlIf.genblk1\.byte_0.wen_a7_xx_RNI9T1P2[0]                     CFG4        D                  In      -         7.718 r     -         
+Webserver_TCP_sb_0.COREAHBLSRAM_0_0.U_SramCtrlIf.genblk1\.byte_0.wen_a7_xx_RNI9T1P2[0]                     CFG4        Y                  Out     0.284     8.002 f     -         
+wen_a7[0]                                                                                                  Net         -                  -       1.068     -           8         
+Webserver_TCP_sb_0.COREAHBLSRAM_0_0.U_SramCtrlIf.genblk1\.byte_0.block0                                    RAM1K18     A_WEN[0]           In      -         9.070 f     -         
+==================================================================================================================================================================================
+Total path delay (propagation time + setup) of 9.480 is 3.849(40.6%) logic and 5.631(59.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                   Starting                                                                                    Arrival           
+Instance                                           Reference                                               Type     Pin     Net                Time        Slack 
+                                                   Clock                                                                                                         
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Webserver_TCP_sb_0.CORERESETP_0.count_sdif3[0]     Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       count_sdif3[0]     0.076       18.011
+Webserver_TCP_sb_0.CORERESETP_0.count_ddr[0]       Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       count_ddr[0]       0.076       18.079
+Webserver_TCP_sb_0.CORERESETP_0.count_ddr[2]       Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       count_ddr[2]       0.076       18.227
+Webserver_TCP_sb_0.CORERESETP_0.count_sdif3[1]     Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       count_sdif3[1]     0.076       18.295
+Webserver_TCP_sb_0.CORERESETP_0.count_ddr[3]       Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       count_ddr[3]       0.076       18.314
+Webserver_TCP_sb_0.CORERESETP_0.count_sdif3[3]     Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       count_sdif3[3]     0.076       18.314
+Webserver_TCP_sb_0.CORERESETP_0.count_sdif3[6]     Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       count_sdif3[6]     0.094       18.350
+Webserver_TCP_sb_0.CORERESETP_0.count_sdif3[2]     Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       count_sdif3[2]     0.094       18.378
+Webserver_TCP_sb_0.CORERESETP_0.count_ddr[1]       Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       count_ddr[1]       0.076       18.382
+Webserver_TCP_sb_0.CORERESETP_0.count_ddr[6]       Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       count_ddr[6]       0.076       18.386
+=================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                       Starting                                                                                         Required           
+Instance                                               Reference                                               Type     Pin     Net                     Time         Slack 
+                                                       Clock                                                                                                               
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Webserver_TCP_sb_0.CORERESETP_0.release_sdif3_core     Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      EN      release_sdif3_core6     19.706       18.011
+Webserver_TCP_sb_0.CORERESETP_0.ddr_settled            Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      EN      ddr_settled6            19.706       18.079
+Webserver_TCP_sb_0.CORERESETP_0.count_ddr[13]          Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      D       count_ddr_s[13]         19.778       18.411
+Webserver_TCP_sb_0.CORERESETP_0.count_ddr[12]          Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      D       count_ddr_s[12]         19.778       18.425
+Webserver_TCP_sb_0.CORERESETP_0.count_sdif3[12]        Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      D       count_sdif3_s[12]       19.778       18.425
+Webserver_TCP_sb_0.CORERESETP_0.count_ddr[11]          Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      D       count_ddr_s[11]         19.778       18.440
+Webserver_TCP_sb_0.CORERESETP_0.count_sdif3[11]        Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      D       count_sdif3_s[11]       19.778       18.440
+Webserver_TCP_sb_0.CORERESETP_0.count_ddr[10]          Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      D       count_ddr_s[10]         19.778       18.454
+Webserver_TCP_sb_0.CORERESETP_0.count_sdif3[10]        Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      D       count_sdif3_s[10]       19.778       18.454
+Webserver_TCP_sb_0.CORERESETP_0.count_ddr[9]           Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      D       count_ddr_s[9]          19.778       18.468
+===========================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      20.000
+    - Setup time:                            0.294
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         19.706
+
+    - Propagation time:                      1.696
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 18.011
+
+    Number of logic level(s):                2
+    Starting point:                          Webserver_TCP_sb_0.CORERESETP_0.count_sdif3[0] / Q
+    Ending point:                            Webserver_TCP_sb_0.CORERESETP_0.release_sdif3_core / EN
+    The start point is clocked by            Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+    The end   point is clocked by            Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+
+Instance / Net                                                     Pin      Pin               Arrival     No. of    
+Name                                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+Webserver_TCP_sb_0.CORERESETP_0.count_sdif3[0]            SLE      Q        Out     0.076     0.076 r     -         
+count_sdif3[0]                                            Net      -        -       0.648     -           3         
+Webserver_TCP_sb_0.CORERESETP_0.release_sdif3_core6_8     CFG4     D        In      -         0.724 r     -         
+Webserver_TCP_sb_0.CORERESETP_0.release_sdif3_core6_8     CFG4     Y        Out     0.284     1.008 f     -         
+release_sdif3_core6_8                                     Net      -        -       0.216     -           1         
+Webserver_TCP_sb_0.CORERESETP_0.release_sdif3_core6       CFG4     D        In      -         1.224 f     -         
+Webserver_TCP_sb_0.CORERESETP_0.release_sdif3_core6       CFG4     Y        Out     0.250     1.474 f     -         
+release_sdif3_core6                                       Net      -        -       0.221     -           1         
+Webserver_TCP_sb_0.CORERESETP_0.release_sdif3_core        SLE      EN       In      -         1.696 f     -         
+====================================================================================================================
+Total path delay (propagation time + setup) of 1.989 is 0.904(45.4%) logic and 1.085(54.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                   Starting                                                                                                                      Arrival           
+Instance                                           Reference                                                    Type     Pin     Net                                             Time        Slack 
+                                                   Clock                                                                                                                                           
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Webserver_TCP_sb_0.CORECONFIGP_0.psel              Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB     SLE      Q       psel                                            0.094       15.829
+Webserver_TCP_sb_0.CORECONFIGP_0.paddr[13]         Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB     SLE      Q       Webserver_TCP_sb_0_SDIF3_INIT_APB_PADDR[13]     0.094       17.792
+Webserver_TCP_sb_0.CORECONFIGP_0.paddr[12]         Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB     SLE      Q       Webserver_TCP_sb_0_SDIF3_INIT_APB_PADDR[12]     0.094       17.834
+Webserver_TCP_sb_0.CORECONFIGP_0.state[1]          Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB     SLE      Q       state[1]                                        0.076       18.059
+Webserver_TCP_sb_0.CORECONFIGP_0.paddr[16]         Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB     SLE      Q       paddr[16]                                       0.094       18.413
+Webserver_TCP_sb_0.CORECONFIGP_0.SDIF3_PENABLE     Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB     SLE      Q       Webserver_TCP_sb_0_SDIF3_INIT_APB_PENABLE       0.094       18.455
+Webserver_TCP_sb_0.CORECONFIGP_0.paddr[15]         Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB     SLE      Q       Webserver_TCP_sb_0_SDIF3_INIT_APB_PADDR[15]     0.094       18.495
+Webserver_TCP_sb_0.CORECONFIGP_0.MDDR_PENABLE      Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB     SLE      Q       CORECONFIGP_0_MDDR_APBmslave_PENABLE            0.094       18.651
+Webserver_TCP_sb_0.CORECONFIGP_0.state[0]          Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB     SLE      Q       state[0]                                        0.076       18.695
+Webserver_TCP_sb_0.CORECONFIGP_0.paddr[14]         Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB     SLE      Q       Webserver_TCP_sb_0_SDIF3_INIT_APB_PADDR[14]     0.076       18.986
+===================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                           Starting                                                                                                                                  Required           
+Instance                                                   Reference                                                    Type               Pin          Net                                          Time         Slack 
+                                                           Clock                                                                                                                                                        
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SERDES_IF_0.SERDESIF_INST                                  Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB     SERDESIF_120_3     APB_PSEL     Webserver_TCP_sb_0_SDIF3_INIT_APB_PSELx      18.020       15.829
+Webserver_TCP_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA[0]     Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB     SLE                D            prdata[0]                                    19.778       16.362
+Webserver_TCP_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA[1]     Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB     SLE                D            prdata[1]                                    19.778       16.362
+Webserver_TCP_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA[3]     Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB     SLE                D            prdata[3]                                    19.778       16.491
+Webserver_TCP_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA[5]     Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB     SLE                D            prdata[5]                                    19.778       16.491
+Webserver_TCP_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY        Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB     SLE                EN           un1_next_FIC_2_APB_M_PREADY_0_sqmuxa_0_0     19.706       16.555
+Webserver_TCP_sb_0.CORECONFIGP_0.state[1]                  Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB     SLE                D            state_ns[1]                                  19.778       16.646
+Webserver_TCP_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA[2]     Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB     SLE                D            prdata[2]                                    19.778       16.662
+Webserver_TCP_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA[4]     Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB     SLE                D            prdata[4]                                    19.778       16.662
+Webserver_TCP_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA[6]     Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB     SLE                D            prdata[6]                                    19.778       16.662
+========================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      20.000
+    - Setup time:                            1.980
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         18.020
+
+    - Propagation time:                      2.191
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 15.829
+
+    Number of logic level(s):                1
+    Starting point:                          Webserver_TCP_sb_0.CORECONFIGP_0.psel / Q
+    Ending point:                            SERDES_IF_0.SERDESIF_INST / APB_PSEL
+    The start point is clocked by            Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB [falling] (rise=0.000 fall=20.000 period=40.000) on pin CLK
+    The end   point is clocked by            Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB [rising] (rise=0.000 fall=20.000 period=40.000) on pin APB_CLK
+
+Instance / Net                                                                      Pin          Pin               Arrival     No. of    
+Name                                                             Type               Name         Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------
+Webserver_TCP_sb_0.CORECONFIGP_0.psel                            SLE                Q            Out     0.094     0.094 f     -         
+psel                                                             Net                -            -       0.708     -           4         
+Webserver_TCP_sb_0.CORECONFIGP_0.R_SDIF3_PSEL_0_a2_0_a2_1_a2     CFG4               D            In      -         0.802 f     -         
+Webserver_TCP_sb_0.CORECONFIGP_0.R_SDIF3_PSEL_0_a2_0_a2_1_a2     CFG4               Y            Out     0.250     1.053 f     -         
+Webserver_TCP_sb_0_SDIF3_INIT_APB_PSELx                          Net                -            -       1.138     -           35        
+SERDES_IF_0.SERDESIF_INST                                        SERDESIF_120_3     APB_PSEL     In      -         2.191 f     -         
+=========================================================================================================================================
+Total path delay (propagation time + setup) of 4.171 is 2.324(55.7%) logic and 1.847(44.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+@W: MT447 :"c:/tcl_update/sf2/dg0516/516_v8/dg0516_sf2_secure_webserver_tcp_demo/libero_project/designer/top/synthesis.fdc":18:0:18:0|Timing constraint (from [get_cells { Webserver_TCP_sb_0.CORERESETP_0.MSS_HPMS_READY_int }] to [get_cells { Webserver_TCP_sb_0.CORERESETP_0.sm0_areset_n_rcosc Webserver_TCP_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1 }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"c:/tcl_update/sf2/dg0516/516_v8/dg0516_sf2_secure_webserver_tcp_demo/libero_project/designer/top/synthesis.fdc":19:0:19:0|Timing constraint (from [get_cells { Webserver_TCP_sb_0.CORERESETP_0.MSS_HPMS_READY_int Webserver_TCP_sb_0.CORERESETP_0.SDIF*_PERST_N_re }] to [get_cells { Webserver_TCP_sb_0.CORERESETP_0.sdif*_areset_n_rcosc* }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"c:/tcl_update/sf2/dg0516/516_v8/dg0516_sf2_secure_webserver_tcp_demo/libero_project/designer/top/synthesis.fdc":20:0:20:0|Timing constraint (through [get_nets { Webserver_TCP_sb_0.CORERESETP_0.*sdif*_phr.hot_reset_n Webserver_TCP_sb_0.CORERESETP_0.*sdif*_phr.sdif_core_reset_n_0 }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/tcl_update/sf2/dg0516/516_v8/dg0516_sf2_secure_webserver_tcp_demo/libero_project/designer/top/synthesis.fdc":21:0:21:0|Timing constraint (to [get_cells { Webserver_TCP_sb_0.CORERESETP_0.*sdif*_phr.ltssm_q1[*] Webserver_TCP_sb_0.CORERESETP_0.*sdif*_phr.psel_q1 Webserver_TCP_sb_0.CORERESETP_0.*sdif*_phr.pwrite_q1 }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"c:/tcl_update/sf2/dg0516/516_v8/dg0516_sf2_secure_webserver_tcp_demo/libero_project/designer/top/synthesis.fdc":23:0:23:0|Timing constraint (through [get_pins { Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST.CONFIG_PRESET_N }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT447 :"c:/tcl_update/sf2/dg0516/516_v8/dg0516_sf2_secure_webserver_tcp_demo/libero_project/designer/top/synthesis.fdc":24:0:24:0|Timing constraint (through [get_pins { Webserver_TCP_sb_0.SYSRESET_POR.POWER_ON_RESET_N }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+@W: MT443 :"c:/tcl_update/sf2/dg0516/516_v8/dg0516_sf2_secure_webserver_tcp_demo/libero_project/designer/top/synthesis.fdc":25:0:25:0|Timing constraint (through [get_nets { Webserver_TCP_sb_0.CORECONFIGP_0.FIC_2_APB_M_PSEL Webserver_TCP_sb_0.CORECONFIGP_0.FIC_2_APB_M_PENABLE }] to [get_cells { Webserver_TCP_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY* Webserver_TCP_sb_0.CORECONFIGP_0.state[0] }]) (max delay 0.000000) was not applied to the design because none of the paths specified by the constraint exist in the design 
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 181MB peak: 184MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 181MB peak: 184MB)
+
+---------------------------------------
+Resource Usage Report for top 
+
+Mapping to part: m2s150tsfc1152-1
+Cell usage:
+AND2            1 use
+CCC             3 uses
+CLKINT          12 uses
+MSS_120         1 use
+RCOSC_25_50MHZ  1 use
+RCOSC_25_50MHZ_FAB  1 use
+SERDESIF_120_3  1 use
+SYSRESET        1 use
+CFG1           6 uses
+CFG2           127 uses
+CFG3           73 uses
+CFG4           126 uses
+
+Carry cells:
+ARI1            27 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            310 uses
+
+DSP Blocks:    0 of 240 (0%)
+
+I/O ports: 88
+I/O primitives: 67
+BIBUF          21 uses
+BIBUF_DIFF     2 uses
+INBUF          3 uses
+INBUF_DIFF     1 use
+OUTBUF         37 uses
+OUTBUF_DIFF    1 use
+TRIBUFF        2 uses
+
+
+Global Clock Buffers: 12
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K18) : 64 of 236 (27%)
+
+Total LUTs:    359
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 2304; LUTs = 2304;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  310 + 0 + 2304 + 0 = 2614;
+Total number of LUTs after P&R:  359 + 0 + 2304 + 0 = 2663;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 65MB peak: 184MB)
+
+Process took 0h:00m:10s realtime, 0h:00m:09s cputime
+# Fri Jun 11 22:57:16 2021
+
+###########################################################]

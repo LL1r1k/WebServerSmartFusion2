@@ -1,0 +1,114 @@
+#--  Synopsys, Inc.
+#--  Version R-2020.09M-SP1-1
+#--  Project file C:\tcl_update\sf2\dg0516\final\m2s_dg0516_df\SF2_Secure_Webserver_TCP_Demo_DF\Libero\Webserver_TCP\synthesis\top_syn.prj
+#--  Written on Fri Jun 11 22:57:17 2021
+
+
+#project files
+add_file -verilog "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/work/Webserver_TCP_sb/CCC_0/Webserver_TCP_sb_CCC_0_FCCC.v"
+add_file -verilog "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/Actel/SgCore/OSC/2.0.101/osc_comps.v"
+add_file -verilog "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/work/Webserver_TCP_sb/FABOSC_0/Webserver_TCP_sb_FABOSC_0_OSC.v"
+add_file -verilog "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/work/Webserver_TCP_sb_MSS/Webserver_TCP_sb_MSS_syn.v"
+add_file -verilog "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/work/Webserver_TCP_sb_MSS/Webserver_TCP_sb_MSS.v"
+add_file -verilog "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/Actel/DirectCore/CoreConfigP/7.1.100/rtl/vlog/core/coreconfigp.v"
+add_file -verilog "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v"
+add_file -verilog "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_slavearbiter.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_slavestage.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_defaultslavesm.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_addrdec.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_masterstage.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_matrix4x16.v"
+add_file -verilog -lib COREAHBLITE_LIB "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite.v"
+add_file -verilog -lib COREAHBLSRAM_LIB "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/Actel/DirectCore/COREAHBLSRAM/2.0.113/rtl/vlog/core/AHBLSramIf.v"
+add_file -verilog -lib COREAHBLSRAM_LIB "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/work/Webserver_TCP_sb/COREAHBLSRAM_0_0/rtl/vlog/core/lsram_2048to139264x8.v"
+add_file -verilog -lib COREAHBLSRAM_LIB "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/work/Webserver_TCP_sb/COREAHBLSRAM_0_0/rtl/vlog/core/usram_128to9216x8.v"
+add_file -verilog -lib COREAHBLSRAM_LIB "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/work/Webserver_TCP_sb/COREAHBLSRAM_0_0/rtl/vlog/core/SramCtrlIf.v"
+add_file -verilog -lib COREAHBLSRAM_LIB "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/work/Webserver_TCP_sb/COREAHBLSRAM_0_0/rtl/vlog/core/CoreAHBLSRAM.v"
+add_file -verilog "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/work/Webserver_TCP_sb/Webserver_TCP_sb.v"
+add_file -verilog "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/work/top/FCCC_0/top_FCCC_0_FCCC.v"
+add_file -verilog "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/work/top/FCCC_1/top_FCCC_1_FCCC.v"
+add_file -verilog "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/work/top/SERDES_IF_0/top_SERDES_IF_0_SERDES_IF_syn.v"
+add_file -verilog "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/work/top/SERDES_IF_0/top_SERDES_IF_0_SERDES_IF.v"
+add_file -verilog "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/component/work/top/top.v"
+add_file -fpga_constraint "C:/tcl_update/sf2/dg0516/final/m2s_dg0516_df/SF2_Secure_Webserver_TCP_Demo_DF/Libero/Webserver_TCP/designer/top/synthesis.fdc"
+
+
+#implementation: "synthesis"
+impl -add synthesis -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std sysv
+
+#device options
+set_option -technology SmartFusion2
+set_option -part M2S150TS
+set_option -package FC1152
+set_option -speed_grade -1
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "top"
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+set_option -hdl_strict_syntax 0
+
+# mapper_without_write_options
+set_option -frequency 100.000
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_structural_verilog 0
+set_option -write_vhdl 0
+
+# actel_options
+set_option -rw_check_on_ram 0
+
+# Microchip G4
+set_option -run_prop_extract 1
+set_option -maxfan 10000
+set_option -clock_globalthreshold 2
+set_option -async_globalthreshold 12
+set_option -globalthreshold 5000
+set_option -low_power_ram_decomp 0
+set_option -seqshift_to_uram 0
+set_option -disable_io_insertion 0
+set_option -opcond COMTC
+set_option -retiming 0
+set_option -report_path 4000
+set_option -update_models_cp 0
+set_option -preserve_registers 0
+set_option -disable_ramindex 0
+set_option -rep_clkint_driver 1
+set_option -microsemi_enhanced_flow 1
+set_option -ternary_adder_decomp 66
+set_option -pack_uram_addr_reg 1
+
+# Microchip SmartFusion2
+set_option -min_cdc_sync_flops 2
+set_option -unsafe_cdc_netlist_property 0
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./top.vm"
+impl -active "synthesis"

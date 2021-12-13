@@ -1,0 +1,34 @@
+Microsemi Corporation - Microsemi Libero Software Release v2021.1 (Version 2021.1.0.17)
+
+Date      :  Fri Jun 11 22:56:34 2021
+Project   :  C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project
+Component :  top
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/top/FCCC_0/top_FCCC_0_FCCC.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/top/FCCC_1/top_FCCC_1_FCCC.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/top/SERDES_IF_0/top_SERDES_IF_0_SERDES_IF.v
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/top/top.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/top/SERDES_IF_0/top_SERDES_IF_0_SERDES_IF_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/top/SERDES_IF_0/top_SERDES_IF_0_SERDES_IF_pre.v
+
+Stimulus files for all Simulation tools:
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/top/SERDES_IF_0/SERDESIF_3_user.bfm
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/top/SERDES_IF_0/SERDESIF_3_compile_bfm.tcl
+
+Firmware files for all Software IDE tools:
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/top/SERDES_IF_0/sys_config_SERDESIF_3.c
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/top/SERDES_IF_0/sys_config_SERDESIF_3.h
+
+Configuration files to be used for all Simulation tools:
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/top/SERDES_IF_0/SERDESIF_3_init.bfm
+
+Configuration files to be used for Power Analysis:
+    C:/tcl_update/sf2/dg0516/516_v8/DG0516_SF2_Secure_Webserver_TCP_Demo/Libero_Project/component/work/top/SERDES_IF_0/SERDESIF_3_init.reg
+

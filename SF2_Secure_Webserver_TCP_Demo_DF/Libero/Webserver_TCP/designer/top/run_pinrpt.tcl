@@ -1,0 +1,10 @@
+DESIGN=top
+DESDIR=C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\designer\top
+TARGET_DIR=C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\designer\top
+FAM=SmartFusion2
+DIE=PA4M12000_TS
+PACKAGE=fc1152
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

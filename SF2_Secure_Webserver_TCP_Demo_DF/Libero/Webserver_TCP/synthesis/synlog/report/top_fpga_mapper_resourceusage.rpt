@@ -1,0 +1,50 @@
+Resource Usage Report for top 
+
+Mapping to part: m2s150tsfc1152-1
+Cell usage:
+AND2            1 use
+CCC             3 uses
+CLKINT          12 uses
+MSS_120         1 use
+RCOSC_25_50MHZ  1 use
+RCOSC_25_50MHZ_FAB  1 use
+SERDESIF_120_3  1 use
+SYSRESET        1 use
+CFG1           6 uses
+CFG2           127 uses
+CFG3           73 uses
+CFG4           126 uses
+
+Carry cells:
+ARI1            27 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            310 uses
+
+DSP Blocks:    0 of 240 (0%)
+
+I/O ports: 88
+I/O primitives: 67
+BIBUF          21 uses
+BIBUF_DIFF     2 uses
+INBUF          3 uses
+INBUF_DIFF     1 use
+OUTBUF         37 uses
+OUTBUF_DIFF    1 use
+TRIBUFF        2 uses
+
+
+Global Clock Buffers: 12
+
+Total LUTs:    359
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 2304; LUTs = 2304;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  310 + 0 + 2304 + 0 = 2614;
+Total number of LUTs after P&R:  359 + 0 + 2304 + 0 = 2663;
+

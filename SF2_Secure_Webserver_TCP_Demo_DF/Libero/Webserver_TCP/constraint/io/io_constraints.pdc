@@ -1,0 +1,126 @@
+# Microsemi I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: v11.7 SP2 11.7.2.2
+
+# Family: SmartFusion2 , Die: M2S150TS , Package: 1152 FC
+
+# Date generated: Wed Nov 23 14:09:47 2016 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+set_io GPIO_0_M2F      \
+    -pinname D26       \
+    -fixed yes         \
+    -DIRECTION OUTPUT \
+	-iostd LVCMOS25 \
+	-out_drive 4
+
+
+set_io GPIO_1_M2F      \
+    -pinname F26       \
+    -fixed yes         \
+    -DIRECTION OUTPUT \
+	-iostd LVCMOS25 \
+	-out_drive 4
+
+
+set_io GPIO_2_M2F      \
+    -pinname A27       \
+    -fixed yes         \
+    -DIRECTION OUTPUT \
+	-iostd LVCMOS25 \
+	-out_drive 4
+
+
+set_io GPIO_3_M2F      \
+    -pinname C26       \
+    -fixed yes         \
+    -DIRECTION OUTPUT \
+	-iostd LVCMOS25 \
+	-out_drive 4
+
+
+set_io GPIO_4_M2F      \
+    -pinname C28       \
+    -fixed yes         \
+    -DIRECTION OUTPUT \
+	-iostd LVCMOS25 \
+	-out_drive 4
+
+
+set_io GPIO_5_M2F      \
+    -pinname B27       \
+    -fixed yes         \
+    -DIRECTION OUTPUT \
+	-iostd LVCMOS25 \
+	-out_drive 4
+
+
+set_io GPIO_6_M2F      \
+    -pinname C27       \
+    -fixed yes         \
+    -DIRECTION OUTPUT \
+	-iostd LVCMOS25 \
+	-out_drive 4
+
+
+set_io GPIO_7_M2F      \
+    -pinname E26       \
+    -fixed yes         \
+    -DIRECTION OUTPUT \
+	-iostd LVCMOS25 \
+	-out_drive 4
+
+
+set_io PHY_MDC         \
+    -pinname F3        \
+    -fixed yes         \
+    -DIRECTION OUTPUT \
+	-iostd LVCMOS25 \
+	-out_drive 4
+
+
+set_io PHY_MDIO       \
+    -pinname K7       \
+    -fixed yes        \
+    -DIRECTION INOUT \
+	-iostd LVCMOS25 \
+	-out_drive 4
+
+
+set_io PHY_RST         \
+    -pinname F2        \
+    -fixed yes         \
+    -DIRECTION OUTPUT \
+	-iostd LVCMOS25 \
+	-out_drive 4
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+

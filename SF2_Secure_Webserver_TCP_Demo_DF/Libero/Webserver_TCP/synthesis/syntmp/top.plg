@@ -1,0 +1,62 @@
+@P:  Worst Slack : 0.520
+@P:  FCCC_0/GL0 - Estimated Frequency : NA
+@P:  FCCC_0/GL0 - Requested Frequency : 62.5 MHz
+@P:  FCCC_0/GL0 - Estimated Period : NA
+@P:  FCCC_0/GL0 - Requested Period : 16.000
+@P:  FCCC_0/GL0 - Slack : NA
+@P:  FCCC_0/GL1 - Estimated Frequency : NA
+@P:  FCCC_0/GL1 - Requested Frequency : 62.5 MHz
+@P:  FCCC_0/GL1 - Estimated Period : NA
+@P:  FCCC_0/GL1 - Requested Period : 16.000
+@P:  FCCC_0/GL1 - Slack : NA
+@P:  FCCC_1/GL0 - Estimated Frequency : NA
+@P:  FCCC_1/GL0 - Requested Frequency : 125.0 MHz
+@P:  FCCC_1/GL0 - Estimated Period : NA
+@P:  FCCC_1/GL0 - Requested Period : 8.000
+@P:  FCCC_1/GL0 - Slack : NA
+@P:  SERDES_IF_0/SERDESIF_INST/EPCS_RXCLK[1] - Estimated Frequency : NA
+@P:  SERDES_IF_0/SERDESIF_INST/EPCS_RXCLK[1] - Requested Frequency : 125.0 MHz
+@P:  SERDES_IF_0/SERDESIF_INST/EPCS_RXCLK[1] - Estimated Period : NA
+@P:  SERDES_IF_0/SERDESIF_INST/EPCS_RXCLK[1] - Requested Period : 8.000
+@P:  SERDES_IF_0/SERDESIF_INST/EPCS_RXCLK[1] - Slack : NA
+@P:  SERDES_IF_0/SERDESIF_INST/EPCS_TXCLK[1] - Estimated Frequency : NA
+@P:  SERDES_IF_0/SERDESIF_INST/EPCS_TXCLK[1] - Requested Frequency : 125.0 MHz
+@P:  SERDES_IF_0/SERDESIF_INST/EPCS_TXCLK[1] - Estimated Period : NA
+@P:  SERDES_IF_0/SERDESIF_INST/EPCS_TXCLK[1] - Requested Period : 8.000
+@P:  SERDES_IF_0/SERDESIF_INST/EPCS_TXCLK[1] - Slack : NA
+@P:  Webserver_TCP_sb_0/CCC_0/GL0 - Estimated Frequency : 105.5 MHz
+@P:  Webserver_TCP_sb_0/CCC_0/GL0 - Requested Frequency : 100.0 MHz
+@P:  Webserver_TCP_sb_0/CCC_0/GL0 - Estimated Period : 9.480
+@P:  Webserver_TCP_sb_0/CCC_0/GL0 - Requested Period : 10.000
+@P:  Webserver_TCP_sb_0/CCC_0/GL0 - Slack : 0.520
+@P:  Webserver_TCP_sb_0/CCC_0/GL3 - Estimated Frequency : NA
+@P:  Webserver_TCP_sb_0/CCC_0/GL3 - Requested Frequency : 125.0 MHz
+@P:  Webserver_TCP_sb_0/CCC_0/GL3 - Estimated Period : NA
+@P:  Webserver_TCP_sb_0/CCC_0/GL3 - Requested Period : 8.000
+@P:  Webserver_TCP_sb_0/CCC_0/GL3 - Slack : NA
+@P:  Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Frequency : 502.7 MHz
+@P:  Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Frequency : 50.0 MHz
+@P:  Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Period : 1.989
+@P:  Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Period : 20.000
+@P:  Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Slack : 18.011
+@P:  Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB - Estimated Frequency : 114.5 MHz
+@P:  Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB - Requested Frequency : 25.0 MHz
+@P:  Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB - Estimated Period : 8.731
+@P:  Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB - Requested Period : 40.000
+@P:  Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB - Slack : 15.829
+@P:  top_SERDES_IF_0_SERDES_IF|REFCLK1_OUT_inferred_clock - Estimated Frequency : NA
+@P:  top_SERDES_IF_0_SERDES_IF|REFCLK1_OUT_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  top_SERDES_IF_0_SERDES_IF|REFCLK1_OUT_inferred_clock - Estimated Period : NA
+@P:  top_SERDES_IF_0_SERDES_IF|REFCLK1_OUT_inferred_clock - Requested Period : 10.000
+@P:  top_SERDES_IF_0_SERDES_IF|REFCLK1_OUT_inferred_clock - Slack : NA
+@P:  System - Estimated Frequency : NA
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : NA
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : NA
+@P: top Part : m2s150tsfc1152-1
+@P: top Register bits  : 310 
+@P: top DSP Blocks  : 0
+@P: top I/O primitives : 67
+@P: top RAM1K18 :  64
+@P:  CPU Time : 0h:00m:09s

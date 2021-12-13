@@ -1,0 +1,82 @@
+INFO: Reading User SDC file C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\constraint\top_derived_constraints.sdc.
+INFO: Reading User SDC file C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\constraint\timing_user_constraints.sdc.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
+
+No errors or warnings found.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+I/O Register Combining   : ON
+High-effort              : ON
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : ON
+
+INFO: Reading User PDC file C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\constraint\io\io_constraints.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 67 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 1 seconds
+
+Placer V5.0 - 2021.1.0 
+Design: top                             Started: Fri Jun 11 23:19:50 2021
+
+Initializing High-Effort Timing-Driven Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 0 seconds
+Placement                : 8 seconds
+Improvement              : 3 seconds
+
+Placer completed successfully.
+
+Design: top                             
+Finished: Fri Jun 11 23:20:26 2021
+Total CPU Time:     00:00:34            Total Elapsed Time: 00:00:36
+Total Memory Usage: 534.3 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\designer\top\topStarted: Fri Jun 11 23:20:38 2021
+
+
+Router completed successfully.
+
+Design: C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\designer\top\top
+Finished: Fri Jun 11 23:21:31 2021
+Total CPU Time:     00:00:50            Total Elapsed Time: 00:00:53
+Total Memory Usage: 4048.1 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 1:
+  Total violating paths eligible for improvement: 2
+  Worst minimum delay slack: -2.201 ns
+Info: Iteration 2:
+  Total violating paths eligible for improvement: 0
+  Worst minimum delay slack: 
+Resource Usage
++---------------+------+--------+------------+
+| Type          | Used | Total  | Percentage |
++---------------+------+--------+------------+
+| 4LUT          | 2674 | 146124 | 1.83       |
+| DFF           | 2614 | 146124 | 1.79       |
+| I/O Register  | 0    | 1716   | 0.00       |
+| Logic Element | 2784 | 146124 | 1.91       |
++---------------+------+--------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  71   | 100.00%    |
+| Placed |  0    | 0.00%      |
++--------+-------+------------+
+

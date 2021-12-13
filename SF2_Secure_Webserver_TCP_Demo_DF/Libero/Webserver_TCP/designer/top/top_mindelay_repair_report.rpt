@@ -1,0 +1,91 @@
+-------------------------------------
+ External Hold Repair Report 
+-------------------------------------
+ Iteration 1  
+ Total I/O input ports improved: 0       
+-------------------------------------
+
+
+
+-------------------------
+ Min-delay Repair Report 
+-------------------------
+ Iteration 1  
+ Total paths eligible for improvement: 2       
+ Total paths improved: 2       
+-------------------------
+
+Path 1
+------------------------
+From: Webserver_TCP_sb_0/CORERESETP_0/count_ddr_enable:CLK
+  To: Webserver_TCP_sb_0/CORERESETP_0/count_ddr_enable_q1:D
+Operating Conditions: WORST
+------------------------
+Path min-delay slack:     -2201 ps
+------------------------
+  On sink pin: Webserver_TCP_sb_0/CORERESETP_0/count_ddr_enable_q1:D
+-------------------------------------
+  Pin max-delay slack:    11981 ps
+  Min-delay inserted:      2192 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_Webserver_TCP_sb_0/CORERESETP_0/count_ddr_enable_q1_CFG1C_TEST0
+      mdr_Webserver_TCP_sb_0/CORERESETP_0/count_ddr_enable_q1_CFG1C_TEST
+      mdr_Webserver_TCP_sb_0/CORERESETP_0/count_ddr_enable_q1_CFG1D_TEST1
+      mdr_Webserver_TCP_sb_0/CORERESETP_0/count_ddr_enable_q1_CFG1D_TEST0
+      mdr_Webserver_TCP_sb_0/CORERESETP_0/count_ddr_enable_q1_CFG1D_TEST
+
+
+Path 2
+------------------------
+From: Webserver_TCP_sb_0/CORERESETP_0/count_sdif3_enable:CLK
+  To: Webserver_TCP_sb_0/CORERESETP_0/count_sdif3_enable_q1:D
+Operating Conditions: WORST
+------------------------
+Path min-delay slack:     -2000 ps
+------------------------
+  On sink pin: Webserver_TCP_sb_0/CORERESETP_0/count_sdif3_enable_q1:D
+-------------------------------------
+  Pin max-delay slack:    11770 ps
+  Min-delay inserted:      2079 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_Webserver_TCP_sb_0/CORERESETP_0/count_sdif3_enable_q1_CFG1A_TEST
+      mdr_Webserver_TCP_sb_0/CORERESETP_0/count_sdif3_enable_q1_CFG1D_TEST2
+      mdr_Webserver_TCP_sb_0/CORERESETP_0/count_sdif3_enable_q1_CFG1D_TEST1
+      mdr_Webserver_TCP_sb_0/CORERESETP_0/count_sdif3_enable_q1_CFG1D_TEST0
+      mdr_Webserver_TCP_sb_0/CORERESETP_0/count_sdif3_enable_q1_CFG1D_TEST
+
+
+
+
+-------------------------------------
+ External Hold Repair Report 
+-------------------------------------
+ Iteration 2  
+ Total I/O input ports improved: 0       
+-------------------------------------
+
+
+
+-------------------------
+ Min-delay Repair Report 
+-------------------------
+ Iteration 2  
+ Total paths eligible for improvement: 0       
+ Total paths improved: 0       
+-------------------------
+
+
+Note:
+    [1]: A net cannot be modified for repair if:
+         - it is hardwired, preserved, or global;
+         - the sink pin is a clock pin;
+         - the sink pin has negative max-delay slack allowance;
+
+    [2]: A location is not feasible for inserting a delay buffer if the estimated minimum delay to be inserted might exceed the max-delay slack allowance of the sink pin.
+
+    [3]: The I/O delay taps cannot be used to fix hold violations in RTG4 design if it is a MSIO or MSIOD that drives a GB.
+
+
+

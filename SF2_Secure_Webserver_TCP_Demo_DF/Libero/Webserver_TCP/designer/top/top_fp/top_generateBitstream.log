@@ -1,0 +1,12 @@
+Software Version: 2021.1.0.17
+Opened 'C:\tcl_update\sf2\dg0516\final\m2s_dg0516_df\SF2_Secure_Webserver_TCP_Demo_DF\Libero\Webserver_TCP\designer\top\top_fp\top.pro'
+PDB file 'C:\tcl_update\sf2\dg0516\final\m2s_dg0516_df\SF2_Secure_Webserver_TCP_Demo_DF\Libero\Webserver_TCP\designer\top\top.pdb' has been loaded successfully.
+DESIGN : top;  CHECKSUM : BF8F;  PDB_VERSION : 1.9
+File/Folder 'C:\tcl_update\sf2\dg0516\final\m2s_dg0516_df\SF2_Secure_Webserver_TCP_Demo_DF\Libero\Webserver_TCP\designer\top\top.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'C:\tcl_update\sf2\dg0516\final\m2s_dg0516_df\SF2_Secure_Webserver_TCP_Demo_DF\Libero\Webserver_TCP\designer\top\top.ppd'; file programs Fabric and eNVM.
+Fabric component bitstream digest: 7709631511f713a4ca1136627dab043b7a8692b28d86e5ce2bb33f4016dd3045
+eNVM_0 component bitstream digest: 79a6ba2c48465334730a19212721f1856cb5a290d2dd37edacbf3a12bbd5b634
+Finished: Tue Jul 20 13:29:07 2021 (Elapsed time 00:01:17)
+
+Project saved.
+Project closed.

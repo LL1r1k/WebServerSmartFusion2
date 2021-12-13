@@ -1,0 +1,73 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2020.09M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v2021.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: HYD-LT-I53165
+
+Implementation : synthesis
+
+# Written on Fri Jun 11 22:57:04 2021
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      "C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\designer\top\synthesis.fdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                                                        Requested     Requested     Clock                                                                    Clock                   Clock
+Level     Clock                                                        Frequency     Period        Type                                                                     Group                   Load 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT          50.0 MHz      20.000        declared                                                                 default_clkgroup        46   
+1 .         Webserver_TCP_sb_0/CCC_0/GL0                               100.0 MHz     10.000        generated (from Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup        327  
+1 .         Webserver_TCP_sb_0/CCC_0/GL3                               125.0 MHz     8.000         generated (from Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup        37   
+                                                                                                                                                                                                         
+0 -       Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB     25.0 MHz      40.000        declared                                                                 default_clkgroup        113  
+                                                                                                                                                                                                         
+0 -       SERDES_IF_0/SERDESIF_INST/EPCS_RXCLK[1]                      125.0 MHz     8.000         declared                                                                 default_clkgroup        0    
+1 .         FCCC_0/GL0                                                 62.5 MHz      16.000        generated (from SERDES_IF_0/SERDESIF_INST/EPCS_RXCLK[1])                 default_clkgroup        1    
+1 .         FCCC_0/GL1                                                 62.5 MHz      16.000        generated (from SERDES_IF_0/SERDESIF_INST/EPCS_RXCLK[1])                 default_clkgroup        1    
+                                                                                                                                                                                                         
+0 -       SERDES_IF_0/SERDESIF_INST/EPCS_TXCLK[1]                      125.0 MHz     8.000         declared                                                                 default_clkgroup        0    
+1 .         FCCC_1/GL0                                                 125.0 MHz     8.000         generated (from SERDES_IF_0/SERDESIF_INST/EPCS_TXCLK[1])                 default_clkgroup        1    
+                                                                                                                                                                                                         
+0 -       top_SERDES_IF_0_SERDES_IF|REFCLK1_OUT_inferred_clock         100.0 MHz     10.000        inferred                                                                 Inferred_clkgroup_0     1    
+=========================================================================================================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                                                             Clock     Source                                                                               Clock Pin                                                                 Non-clock Pin     Non-clock Pin                                                         
+Clock                                                        Load      Pin                                                                                  Seq Example                                                               Seq Example       Comb Example                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT          46        Webserver_TCP_sb_0.FABOSC_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)                  Webserver_TCP_sb_0.CORERESETP_0.count_ddr_enable_q1.C                     -                 Webserver_TCP_sb_0.FABOSC_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
+Webserver_TCP_sb_0/CCC_0/GL0                                 327       Webserver_TCP_sb_0.CCC_0.CCC_INST.GL0(CCC)                                           Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST.CLK_BASE         -                 Webserver_TCP_sb_0.CCC_0.GL0_INST.I(BUFG)                             
+Webserver_TCP_sb_0/CCC_0/GL3                                 37        Webserver_TCP_sb_0.CCC_0.CCC_INST.GL3(CCC)                                           Webserver_TCP_sb_0.CORERESETP_0.genblk5\.sdif3_phr.psel_q1.C              -                 Webserver_TCP_sb_0.CCC_0.GL3_INST.I(BUFG)                             
+                                                                                                                                                                                                                                                                                                                              
+Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB     113       Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST.CLK_CONFIG_APB(MSS_120)     Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST.CLK_MDDR_APB     -                 Webserver_TCP_sb_0.CORECONFIGP_0.un1_FIC_2_APB_M_PCLK.I[0](inv)       
+                                                                                                                                                                                                                                                                                                                              
+SERDES_IF_0/SERDESIF_INST/EPCS_RXCLK[1]                      0         SERDES_IF_0.SERDESIF_INST.EPCS_RXCLK[1](SERDESIF_120_3)                              -                                                                         -                 -                                                                     
+FCCC_0/GL0                                                   1         FCCC_0.CCC_INST.GL0(CCC)                                                             Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST.RX_CLKPF         -                 FCCC_0.GL0_INST.I(BUFG)                                               
+FCCC_0/GL1                                                   1         FCCC_0.CCC_INST.GL1(CCC)                                                             Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST.TX_CLKPF         -                 FCCC_0.GL1_INST.I(BUFG)                                               
+                                                                                                                                                                                                                                                                                                                              
+SERDES_IF_0/SERDESIF_INST/EPCS_TXCLK[1]                      0         SERDES_IF_0.SERDESIF_INST.EPCS_TXCLK[1](SERDESIF_120_3)                              -                                                                         -                 -                                                                     
+FCCC_1/GL0                                                   1         FCCC_1.CCC_INST.GL0(CCC)                                                             Webserver_TCP_sb_0.Webserver_TCP_sb_MSS_0.MSS_ADLIB_INST.GTX_CLKPF        -                 FCCC_1.GL0_INST.I(BUFG)                                               
+                                                                                                                                                                                                                                                                                                                              
+top_SERDES_IF_0_SERDES_IF|REFCLK1_OUT_inferred_clock         1         SERDES_IF_0.refclk1_inbuf_diff.Y(INBUF_DIFF)                                         SERDES_IF_0.SERDESIF_INST.REFCLK1                                         -                 -                                                                     
+==============================================================================================================================================================================================================================================================================================================================

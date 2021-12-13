@@ -1,0 +1,91 @@
+
+                               Synplify Pro (R) 
+
+               Version R-2020.09M-SP1-1 for win64 - Feb 17, 2021 
+
+                    Copyright (c) 1988 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Starting:    C:\Microsemi\Libero_SoC_v2021.1\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     C:\Microsemi\Libero_SoC_v2021.1\SynplifyPro
+Hostname:    HYD-LT-I53165
+Date:        Fri Jun 11 22:56:43 2021
+Version:     R-2020.09M-SP1-1
+
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log top_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+"automatic_compile_point" is unrecognized option for current device
+Implementation not found: synthesis
+log file: "C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\synthesis\top.srr"
+Running: synthesis in foreground
+
+Running top_syn|synthesis
+
+Running Flow: compile (Compile) on top_syn|synthesis
+# Fri Jun 11 22:56:44 2021
+
+Running Flow: compile_flow (Compile Process) on top_syn|synthesis
+# Fri Jun 11 22:56:44 2021
+
+Running: compiler (Compile Input) on top_syn|synthesis
+# Fri Jun 11 22:56:44 2021
+Copied C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\synthesis\synwork\top_comp.srs to C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\synthesis\top.srs
+
+compiler completed
+# Fri Jun 11 22:57:02 2021
+
+Return Code: 0
+Run Time:00h:00m:18s
+
+Running: multi_srs_gen (Multi-srs Generator) on top_syn|synthesis
+# Fri Jun 11 22:57:02 2021
+
+multi_srs_gen completed
+# Fri Jun 11 22:57:02 2021
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\synthesis\synwork\top_mult.srs to C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\synthesis\top.srs
+Complete: Compile Process on top_syn|synthesis
+
+Running: premap (Premap) on top_syn|synthesis
+# Fri Jun 11 22:57:02 2021
+
+premap completed with warnings
+# Fri Jun 11 22:57:06 2021
+
+Return Code: 1
+Run Time:00h:00m:04s
+Complete: Compile on top_syn|synthesis
+
+Running Flow: map (Map) on top_syn|synthesis
+# Fri Jun 11 22:57:06 2021
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on top_syn|synthesis
+# Fri Jun 11 22:57:06 2021
+Copied C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\synthesis\synwork\top_m.srm to C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\synthesis\top.srm
+
+fpga_mapper completed with warnings
+# Fri Jun 11 22:57:16 2021
+
+Return Code: 1
+Run Time:00h:00m:10s
+Complete: Map on top_syn|synthesis
+Complete: Logic Synthesis on top_syn|synthesis
+Copied C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\synthesis\top.srr to C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\synthesis\backup\top.srr
+TCL script complete: "top_syn.tcl"
+exit status=0
+exit status=0
+License checkin: synplifypro_actel

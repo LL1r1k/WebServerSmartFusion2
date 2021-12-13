@@ -1,0 +1,128 @@
+# Microsemi I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: v2021.1 2021.1.0.17
+
+# Family: SmartFusion2 , Die: M2S150TS , Package: 1152 FC
+
+# Date generated: Fri Jun 11 23:12:55 2021 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+set_iobank Bank1  \
+    -vcci 2.50    \
+    -fixed yes
+
+set_iobank Bank2  \
+    -vcci 1.50    \
+    -vref 0.75    \
+    -fixed yes
+
+set_iobank Bank3  \
+    -vcci 2.50    \
+    -fixed yes
+
+set_iobank Bank4  \
+    -vcci 2.50    \
+    -fixed yes
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io GPIO_0_M2F      \
+    -pinname D26       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_1_M2F      \
+    -pinname F26       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_2_M2F      \
+    -pinname A27       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_3_M2F      \
+    -pinname C26       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_4_M2F      \
+    -pinname C28       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_5_M2F      \
+    -pinname B27       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_6_M2F      \
+    -pinname C27       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_7_M2F      \
+    -pinname E26       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io PHY_MDC         \
+    -pinname F3        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io PHY_MDIO       \
+    -pinname K7       \
+    -fixed yes        \
+    -DIRECTION INOUT
+
+
+set_io PHY_RST         \
+    -pinname F2        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+
+#
+#Ports using Dedicated Pins
+
+#
+

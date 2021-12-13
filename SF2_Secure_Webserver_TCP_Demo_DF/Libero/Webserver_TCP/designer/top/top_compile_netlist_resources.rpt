@@ -1,0 +1,228 @@
+Resource Report
+Microsemi Corporation - Microsemi Libero Software Release v2021.1 (Version 2021.1.0.17)
+Date: Fri Jun 11 22:57:27 2021
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S150TS       |
+| Package                        | 1152 FC        |
+| Speed Grade                    | -1             |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 3.3V           |
+| Default I/O technology         | LVCMOS 2.5V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+------------------------------------------------------------------------------------------------------+
+| Topcell | top                                                                                                  |
+| Format  | Verilog                                                                                              |
+| Source  | C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\synthesis\top.vm |
++---------+------------------------------------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+--------+------------+
+| Type                      | Used | Total  | Percentage |
++---------------------------+------+--------+------------+
+| 4LUT                      | 2664 | 146124 | 1.82       |
+| DFF                       | 2614 | 146124 | 1.79       |
+| I/O Register              | 0    | 1722   | 0.00       |
+| User I/O                  | 71   | 574    | 12.37      |
+| -- Single-ended I/O       | 63   | 574    | 10.98      |
+| -- Differential I/O Pairs | 4    | 287    | 1.39       |
+| RAM64x18                  | 0    | 240    | 0.00       |
+| RAM1K18                   | 64   | 236    | 27.12      |
+| MACC                      | 0    | 240    | 0.00       |
+| Chip Globals              | 12   | 16     | 75.00      |
+| CCC                       | 3    | 8      | 37.50      |
+| RCOSC_25_50MHZ            | 1    | 1      | 100.00     |
+| RCOSC_1MHZ                | 0    | 1      | 0.00       |
+| XTLOSC                    | 0    | 1      | 0.00       |
+| SERDESIF Blocks           | 1    | 4      | 25.00      |
+| -- SERDESIF Lanes         | 1    | 16     | 6.25       |
+| FDDR                      | 0    | 1      | 0.00       |
+| MSS                       | 1    | 1      | 100.00     |
++---------------------------+------+--------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+------+
+| Type                     | 4LUT | DFF  |
++--------------------------+------+------+
+| Fabric Logic             | 360  | 310  |
+| RAM64x18 Interface Logic | 0    | 0    |
+| RAM1K18 Interface Logic  | 2304 | 2304 |
+| MACC Interface Logic     | 0    | 0    |
+| Total Used               | 2664 | 2614 |
++--------------------------+------+------+
+
+MSS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| Cortex-M3*    | 1    | 1     |
+| eNVM (512KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| TIMER*        | 2    | 2     |
+| CAN           | 0    | 1     |
+| SPI           | 1    | 2     |
+| I2C           | 0    | 2     |
+| UART          | 1    | 2     |
+| USB           | 0    | 1     |
+| MAC           | 1    | 1     |
+| MDDR          | 1    | 1     |
+| HPDMA         | 1    | 1     |
+| PDMA          | 1    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the MSS
+
+SERDESIF Lanes Usage
++------------+-------+-------+-------+-------+
+| SERDESIF   | Lane0 | Lane1 | Lane2 | Lane3 |
++------------+-------+-------+-------+-------+
+| SERDESIF_3 | ----  | ----  | ----  | EPCS  |
++------------+-------+-------+-------+-------+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 13     | 1    |
+| 14     | 1    |
+| Total  | 2    |
++--------+------+
+
+I/O Function
++--------------------------------------+--------------+-------------+-----------------+
+| Type                                 | w/o register | w/ register | w/ DDR register |
++--------------------------------------+--------------+-------------+-----------------+
+| Input I/O                            | 3            | 0           | 0               |
+| Output I/O                           | 39           | 0           | 0               |
+| Bidirectional I/O                    | 21           | 0           | 0               |
+| Differential Input I/O Pairs         | 1            | 0           | 0               |
+| Differential Output I/O Pairs        | 1            | 0           | 0               |
+| Differential Bidirectional I/O Pairs | 2            | 0           | 0               |
++--------------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++-------------------------------+--------+--------+-------+--------+---------------+
+| I/O Standard                  | Vddi   | Vref   | Input | Output | Bidirectional |
++-------------------------------+--------+--------+-------+--------+---------------+
+| LVCMOS25                      |  2.50v |  N/A   |  2    |  12    |  3            |
+| SSTL15I (Input/Bidirectional) |  1.50v |  0.75v |  1    |  0     |  22           |
+| SSTL15I (Output)              |  1.50v |  N/A   |  0    |  29    |  0            |
+| LVDS                          |  2.50v |  N/A   |  2    |  0     |  0            |
++-------------------------------+--------+--------+-------+--------+---------------+
+
+Nets assigned to chip global resources
++--------+---------+---------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                        |
++--------+---------+---------------------------------------------------------------------------------------------+
+| 283    | INT_NET | Net   : Webserver_TCP_sb_0/GL0_INST                                                         |
+|        |         | Driver: Webserver_TCP_sb_0/CCC_0/GL0_INST/U0_RGB1                                           |
+|        |         | Source: NETLIST                                                                             |
+| 112    | INT_NET | Net   : Webserver_TCP_sb_0_INIT_APB_S_PCLK                                                  |
+|        |         | Driver: Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/MSS_ADLIB_INST_RNIL2V5/U0_RGB1            |
+|        |         | Source: NETLIST                                                                             |
+| 112    | INT_NET | Net   : Webserver_TCP_sb_0/FIC_2_APB_M_PRESET_N_arst                                        |
+|        |         | Driver: Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/FIC_2_APB_M_PRESET_N_keep_RNIEOFD/U0_RGB1 |
+|        |         | Source: NETLIST                                                                             |
+| 110    | INT_NET | Net   : Webserver_TCP_sb_0/MSS_HPMS_READY_int_arst                                          |
+|        |         | Driver: Webserver_TCP_sb_0/CORERESETP_0/MSS_HPMS_READY_int_rep_RNIJ8M8/U0_RGB1              |
+|        |         | Source: NETLIST                                                                             |
+| 46     | INT_NET | Net   : Webserver_TCP_sb_0/FABOSC_0_RCOSC_25_50MHZ_O2F                                      |
+|        |         | Driver: Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1                     |
+|        |         | Source: NETLIST                                                                             |
+| 26     | INT_NET | Net   : Webserver_TCP_sb_0/CORERESETP_0/sm0_areset_n_clk_base_Z                             |
+|        |         | Driver: Webserver_TCP_sb_0/CORERESETP_0/sm0_areset_n_clk_base_RNIOOE1/U0_RGB1               |
+|        |         | Source: NETLIST                                                                             |
+| 19     | INT_NET | Net   : Webserver_TCP_sb_0/CORERESETP_0/sm0_areset_n_rcosc_Z                                |
+|        |         | Driver: Webserver_TCP_sb_0/CORERESETP_0/sm0_areset_n_rcosc_RNIUQKD/U0_RGB1                  |
+|        |         | Source: NETLIST                                                                             |
+| 14     | INT_NET | Net   : Webserver_TCP_sb_0/CORERESETP_0/sm0_areset_n_arst                                   |
+|        |         | Driver: Webserver_TCP_sb_0/CORERESETP_0/sdif0_areset_n_RNIBFK5/U0_RGB1                      |
+|        |         | Source: NETLIST                                                                             |
+| 14     | INT_NET | Net   : Webserver_TCP_sb_0/CORERESETP_0/sdif3_areset_n_rcosc_Z                              |
+|        |         | Driver: Webserver_TCP_sb_0/CORERESETP_0/sdif3_areset_n_rcosc_RNI7FT3/U0_RGB1                |
+|        |         | Source: NETLIST                                                                             |
+| 1      | INT_NET | Net   : FCCC_0_GL1                                                                          |
+|        |         | Driver: FCCC_0/GL1_INST/U0_RGB1                                                             |
+|        |         | Source: NETLIST                                                                             |
+| 1      | INT_NET | Net   : FCCC_1_GL0                                                                          |
+|        |         | Driver: FCCC_1/GL0_INST/U0_RGB1                                                             |
+|        |         | Source: NETLIST                                                                             |
+| 1      | INT_NET | Net   : FCCC_0_GL0                                                                          |
+|        |         | Driver: FCCC_0/GL0_INST/U0_RGB1                                                             |
+|        |         | Source: NETLIST                                                                             |
++--------+---------+---------------------------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+----------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                 |
++--------+---------+----------------------------------------------------------------------+
+| 129    | INT_NET | Net   : Webserver_TCP_sb_0/MSS_HPMS_READY_int                        |
+|        |         | Driver: Webserver_TCP_sb_0/CORERESETP_0/MSS_HPMS_READY_int           |
+| 128    | INT_NET | Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[15]         |
+|        |         | Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[15] |
+| 128    | INT_NET | Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[14]         |
+|        |         | Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[14] |
+| 128    | INT_NET | Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[13]         |
+|        |         | Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[13] |
+| 128    | INT_NET | Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[12]         |
+|        |         | Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[12] |
+| 128    | INT_NET | Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[11]         |
+|        |         | Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[11] |
+| 128    | INT_NET | Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[10]         |
+|        |         | Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[10] |
+| 128    | INT_NET | Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[9]          |
+|        |         | Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[9]  |
+| 128    | INT_NET | Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[8]          |
+|        |         | Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[8]  |
+| 128    | INT_NET | Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[7]          |
+|        |         | Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[7]  |
++--------+---------+----------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+----------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                 |
++--------+---------+----------------------------------------------------------------------+
+| 129    | INT_NET | Net   : Webserver_TCP_sb_0/MSS_HPMS_READY_int                        |
+|        |         | Driver: Webserver_TCP_sb_0/CORERESETP_0/MSS_HPMS_READY_int           |
+| 128    | INT_NET | Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[15]         |
+|        |         | Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[15] |
+| 128    | INT_NET | Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[14]         |
+|        |         | Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[14] |
+| 128    | INT_NET | Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[13]         |
+|        |         | Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[13] |
+| 128    | INT_NET | Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[12]         |
+|        |         | Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[12] |
+| 128    | INT_NET | Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[11]         |
+|        |         | Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[11] |
+| 128    | INT_NET | Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[10]         |
+|        |         | Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[10] |
+| 128    | INT_NET | Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[9]          |
+|        |         | Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[9]  |
+| 128    | INT_NET | Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[8]          |
+|        |         | Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[8]  |
+| 128    | INT_NET | Net   : Webserver_TCP_sb_0/COREAHBLSRAM_0_0/ahbsram_addr[7]          |
+|        |         | Driver: Webserver_TCP_sb_0/COREAHBLSRAM_0_0/U_AHBLSramIf/HADDR_d[7]  |
++--------+---------+----------------------------------------------------------------------+
+

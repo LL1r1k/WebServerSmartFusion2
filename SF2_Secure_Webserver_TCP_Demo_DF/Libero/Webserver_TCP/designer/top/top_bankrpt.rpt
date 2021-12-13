@@ -1,0 +1,71 @@
+********************************************************************
+I/O Bank Report - Date: Fri Jun 11 23:24:01 2021
+Product: Designer
+Release: v2021.1
+Version: 2021.1.0.17
+Design Name: top
+Family: SmartFusion2
+Die: M2S150TS
+Package: 1152 FC
+********************************************************************
+
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 3             | 0            | 0
+    Output I/O                            | 39            | 0            | 0
+    Bidirectional I/O                     | 21            | 0            | 0
+    Differential Input I/O Pairs          | 1             | 0            | 0
+    Differential Output I/O Pairs         | 1             | 0            | 0
+    Differential Bidirectional I/O Pairs  | 2             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os              
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vddi  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVCMOS25                        | 2.50v | N/A   | 2     | 12     | 3            
+    SSTL15I (Input/Bidirectional)   | 1.50v | 0.75v | 1     | 0      | 22           
+    SSTL15I (Output)                | 1.50v | N/A   | 0     | 29     | 0            
+    LVDS                            | 2.50v | N/A   | 2     | 0      | 0            
+
+I/O Bank Resource Usage:
+
+          |   Voltages    | Single I/Os  | Diff I/O Pairs |        Vref I/Os        |  Type   
+          |-------|-------|------|-------|-------|--------|------|-------|----------|---------
+          | Vddi  | Vref  | Used | Total | Used  | Total  | Used | Total | Vref Pins|         
+    ------|-------|-------|------|-------|-------|--------|------|-------|----------|---------
+    Bank0 | N/A   | N/A   | 0    | 12    | 0     | 6      | N/A  | N/A   | N/A      | MSIO    
+    Bank1 | 2.50v | N/A   | 8    | 88    | 0     | 44     | N/A  | N/A   | N/A      | DDRIO   
+    Bank2 | 1.50v | 0.75v | 0    | 88    | 3     | 44     | 46   | 88    | 0        | DDRIO   
+    Bank3 | 2.50v | N/A   | 5    | 42    | 0     | 21     | N/A  | N/A   | N/A      | MSIO    
+    Bank4 | 2.50v | N/A   | 4    | 44    | 0     | 22     | N/A  | N/A   | N/A      | MSIO    
+    Bank5 | N/A   | N/A   | 0    | 42    | 0     | 21     | N/A  | N/A   | N/A      | MSIO    
+    Bank6 | N/A   | N/A   | 0    | 30    | 0     | 15     | N/A  | N/A   | N/A      | MSIO    
+    Bank7 | N/A   | N/A   | 0    | 0     | 0     | 0      | N/A  | N/A   | N/A      | JTAG    
+    Bank8 | N/A   | N/A   | 0    | 18    | 0     | 9      | N/A  | N/A   | N/A      | MSIO    
+    Bank9 | 2.50v | N/A   | 0    | 4     | 1     | 2      | N/A  | N/A   | N/A      | MSIOD   
+    Bank10| N/A   | N/A   | 0    | 4     | 0     | 2      | N/A  | N/A   | N/A      | MSIOD   
+    Bank11| N/A   | N/A   | 0    | 8     | 0     | 4      | N/A  | N/A   | N/A      | MSIO    
+    Bank12| N/A   | N/A   | 0    | 4     | 0     | 2      | N/A  | N/A   | N/A      | MSIOD   
+    Bank13| N/A   | N/A   | 0    | 4     | 0     | 2      | N/A  | N/A   | N/A      | MSIOD   
+    Bank14| N/A   | N/A   | 0    | 14    | 0     | 7      | N/A  | N/A   | N/A      | MSIO    
+    Bank15| N/A   | N/A   | 0    | 36    | 0     | 18     | N/A  | N/A   | N/A      | MSIOD   
+    Bank16| N/A   | N/A   | 0    | 54    | 0     | 27     | N/A  | N/A   | N/A      | MSIOD   
+    Bank17| N/A   | N/A   | 0    | 40    | 0     | 20     | N/A  | N/A   | N/A      | MSIO    
+    Bank18| N/A   | N/A   | 0    | 42    | 0     | 21     | N/A  | N/A   | N/A      | MSIO    
+
+
+I/O Voltage Usage:
+
+       Voltages    |     I/Os     
+    -------|-------|------|-------
+     Vddi  | Vref  | Used | Total 
+    -------|-------|------|-------
+     1.50v | N/A   | 52   | 88    
+     2.50v | N/A   | 19   | 178   
+     1.50v | 0.75v | 19   | 88    
+

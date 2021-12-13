@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\tcl_update\sf2\dg0516\516_v8\DG0516_SF2_Secure_Webserver_TCP_Demo\Libero_Project\synthesis\synlog\top_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>FCCC_0/GL0</data>
+<data>62.5 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>FCCC_0/GL1</data>
+<data>62.5 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>FCCC_1/GL0</data>
+<data>125.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>SERDES_IF_0/SERDESIF_INST/EPCS_RXCLK[1]</data>
+<data>125.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>SERDES_IF_0/SERDESIF_INST/EPCS_TXCLK[1]</data>
+<data>125.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>Webserver_TCP_sb_0/CCC_0/GL0</data>
+<data>100.0 MHz</data>
+<data>105.5 MHz</data>
+<data>0.520</data>
+</row>
+<row>
+<data>Webserver_TCP_sb_0/CCC_0/GL3</data>
+<data>125.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>Webserver_TCP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT</data>
+<data>50.0 MHz</data>
+<data>502.7 MHz</data>
+<data>18.011</data>
+</row>
+<row>
+<data>Webserver_TCP_sb_0/Webserver_TCP_sb_MSS_0/CLK_CONFIG_APB</data>
+<data>25.0 MHz</data>
+<data>114.5 MHz</data>
+<data>15.829</data>
+</row>
+<row>
+<data>top_SERDES_IF_0_SERDES_IF|REFCLK1_OUT_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+</report_table>
